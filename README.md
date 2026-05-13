@@ -9,7 +9,7 @@
 |---|---|
 | `index.html` | アプリ本体。CSS / JavaScript をすべて内包 |
 | `translations.json` | 作品データ本体。公開時に Pages からそのまま配信 |
-| `generate.js` | Met API + ManyAIProxy を使ってデータを再生成 |
+| `generate.js` | Met API と翻訳 / 文章生成 API を使ってデータを再生成 |
 | `scripts/prepare-pages.js` | 公開用に必要ファイルだけ `dist-pages/` へコピー |
 | `.nojekyll` | GitHub Pages を素の静的配信として動かすための設定 |
 
@@ -18,23 +18,23 @@
 - 現在の `translations.json` は **180件** 構成です
 - 解説は **ハイブリッド方式** です
   - DeepL で基本項目を翻訳
-  - ManyAIProxy 経由の OpenAI で自然な日本語解説を生成
+  - LLM で自然な日本語解説を生成
   - 失敗時はテンプレ文にフォールバック
 
 ## 必要な環境変数
 
-ルートの `.env` またはこのディレクトリの `.env` に設定します。
+このリポジトリで再生成を行う場合は、このディレクトリの `.env` に必要な認証情報を設定します。
+利用する翻訳 API / LLM に応じて、`generate.js` が参照する環境変数を合わせてください。
 
 ```env
-MANYAIPROXY_DEEPL_TOKEN=maip-xxxx
-MANYAIPROXY_OPENAI_TOKEN=maip-xxxx
+YOUR_TRANSLATION_TOKEN=...
+YOUR_LLM_TOKEN=...
 ```
 
 任意:
 
 ```env
 ART_OF_THE_DAY_SUMMARY_MODEL=gpt-4.1-mini
-MANYAIPROXY_BASE_URL=https://manyaiproxy.kazuhiro-ogura-dev.prototypers.net
 ```
 
 ## セットアップ
@@ -106,7 +106,7 @@ npm run preview
 1. `translations.json` を最新化する
    標準運用では `npm run build:pages`
 2. `index.html` / `translations.json` / `README.md` / `.nojekyll` をコミットする
-3. GitHub では `.github/workflows/art-of-the-day-pages.yml` を有効にする
+3. GitHub では `.github/workflows/deploy-pages.yml` を有効にする
 4. 必要なら Actions の `Deploy Art of the Day Pages` を手動実行する
 5. GitHub Pages の公開 URL を開いて表示確認する
 
