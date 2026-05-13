@@ -419,12 +419,18 @@
     const prevButton = document.getElementById('prevButton');
     const nextButton = document.getElementById('nextButton');
 
-    function getDayIndex(offset) {
-      return Math.floor(Date.now() / MS_PER_DAY) + offset;
+    function getDisplayDate(offset) {
+      const now = new Date();
+      return new Date(now.getFullYear(), now.getMonth(), now.getDate() + offset);
     }
 
-    function formatDate(dayIndex) {
-      return new Date(dayIndex * MS_PER_DAY).toLocaleDateString('ja-JP', {
+    function getDayIndex(offset) {
+      const date = getDisplayDate(offset);
+      return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / MS_PER_DAY);
+    }
+
+    function formatDate(date) {
+      return date.toLocaleDateString('ja-JP', {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
@@ -547,19 +553,20 @@
         return;
       }
 
+      const displayDate = getDisplayDate(offset);
       const dayIndex = getDayIndex(offset);
       const objectId = data.objectIds[wrapIndex(dayIndex, data.objectIds.length)];
       const artwork = data.artworks[String(objectId)];
 
       if (!artwork) {
-        dateLabel.textContent = formatDate(dayIndex);
+        dateLabel.textContent = formatDate(displayDate);
         showError('作品データの形式が正しくありません。`translations.json` を確認してください。');
         prevButton.disabled = true;
         nextButton.disabled = true;
         return;
       }
 
-      dateLabel.textContent = formatDate(dayIndex);
+      dateLabel.textContent = formatDate(displayDate);
       titleJa.textContent = artwork.titleJa || artwork.titleEn || 'タイトル不明';
       metaLine.textContent = buildMetaLine(artwork) || '作者・制作情報がありません';
       museumLine.textContent = artwork.department

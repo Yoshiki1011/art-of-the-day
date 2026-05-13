@@ -180,7 +180,67 @@
     435662,
     435821,
     437308,
-    436439
+    436439,
+    435776,
+    436558,
+    438110,
+    436618,
+    435694,
+    435719,
+    438115,
+    435912,
+    438020,
+    437425,
+    437463,
+    436207,
+    436450,
+    436743,
+    436570,
+    436482,
+    436767,
+    437802,
+    436418,
+    436660,
+    438661,
+    436282,
+    634108,
+    437983,
+    437909,
+    436905,
+    436512,
+    437320,
+    435772,
+    437880,
+    436077,
+    436724,
+    442183,
+    436211,
+    441104,
+    435756,
+    437032,
+    436071,
+    712539,
+    436582,
+    435926,
+    436167,
+    436885,
+    435843,
+    435697,
+    437455,
+    438948,
+    436021,
+    436114,
+    436939,
+    437020,
+    437063,
+    436704,
+    437886,
+    438642,
+    436334,
+    437581,
+    435647,
+    436994,
+    647338
   ],
   "artworks": {
     "189655": {
@@ -313,6 +373,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT375.jpg",
       "descriptionJa": "ジョヴァンニ・ベッリーニによる「聖母子」は、木に油彩で描かれた作品で、聖母マリアと幼児イエスの親密な姿が特徴です。柔らかな光と繊細な色使いが、ヴェネツィア・ルネサンスの温かみを伝えています。1480年代後半に制作され、当時の宗教画の典型として高く評価されています。"
     },
+    "435647": {
+      "titleEn": "Vaprio d'Adda",
+      "titleJa": "バプリオ・ダッダ",
+      "artist": "Bernardo Bellotto",
+      "artistJa": "ベルナルド・ベロット",
+      "date": "1744",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT4603.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT4603.jpg",
+      "descriptionJa": "ベルナルド・ベロットによる1744年の「バプリオ・ダッダ」は、キャンバスに油彩で描かれた風景画です。川沿いの町と水上を行き交う船が細密に表現されており、18世紀のイタリアの風景を生き生きと伝えています。この作品は1939年にジョセフ・ピューリッツァーの遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "435649": {
       "titleEn": "Judith",
       "titleJa": "ジュディス",
@@ -378,6 +451,32 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145411.jpg",
       "descriptionJa": "アブラハム・ブルマートによる「岩を打つモーゼ」は、1596年に制作されたキャンバスに油彩の作品です。この絵画は、モーゼが岩を打って水を引き出す旧約聖書の場面を力強く描いています。ネーデルラント出身の画家が手がけたこの作品は、16世紀末の宗教画の特徴をよく表しています。"
     },
+    "435694": {
+      "titleEn": "The Dispatch-Bearer",
+      "titleJa": "派遣者",
+      "artist": "Giovanni Boldini",
+      "artistJa": "ジョバンニ・ボルディーニ",
+      "date": "?1879",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP223662.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP223662.jpg",
+      "descriptionJa": "ジョバンニ・ボルディーニによる「派遣者」は、木に油彩で描かれた作品です。街角で兵士や馬が行き交う様子が生き生きと表現され、当時の都市の活気が感じられます。この作品は1908年にマーサ・T・フィスク・コロードによって、彼女の最初の夫ジョサイア・M・フィスクの追憶として寄贈されました。"
+    },
+    "435697": {
+      "titleEn": "George IV (1762–1830) as Prince Regent, after Lawrence",
+      "titleJa": "ジョージ4世（1762-1830）、ローレンスにちなんで摂政皇太子に",
+      "artist": "Henry Bone",
+      "artistJa": "ヘンリー・ボーン",
+      "date": "1816",
+      "medium": "Enamel",
+      "mediumJa": "エナメル",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200600.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT200600.jpg",
+      "descriptionJa": "ヘンリー・ボーンによる1816年のエナメル画で、ジョージ4世が摂政皇太子として描かれています。小さな楕円形のミニチュア肖像で、細やかな筆致が特徴です。この作品は1900年にコリス・P・ハンティントンの遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "435707": {
       "titleEn": "Roadside Halt",
       "titleJa": "道の駅",
@@ -416,6 +515,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145397.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145397.jpg",
       "descriptionJa": "若き日のジェラール・テル・ボルクによる「メイドとトイレにいる若い女性」は、木に油彩で描かれた17世紀オランダの作品です。室内の親密な場面を繊細に捉え、若い女性とメイドの関係性が巧みに表現されています。この絵画は1917年にJ・ピアポント・モルガンからメトロポリタン美術館に寄贈されました。"
+    },
+    "435719": {
+      "titleEn": "Portrait of a Woman",
+      "titleJa": "ある女性の肖像",
+      "artist": "Joseph Bordes",
+      "artistJa": "ジョセフ・ボルドス",
+      "date": "1808",
+      "medium": "Ivory",
+      "mediumJa": "アイボリー",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31473-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-31473-001.jpg",
+      "descriptionJa": "ジョセフ・ボルドスによる1808年のアイボリーに描かれたミニチュア肖像画「ある女性の肖像」です。繊細な八角形の小さな作品で、女性の優雅な表情が印象的です。この作品はフランスで制作され、モーゼス・ラザロ・コレクションから寄贈されました。"
     },
     "435721": {
       "titleEn": "Portrait of a Man",
@@ -456,6 +568,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT2566.jpg",
       "descriptionJa": "ウィリアム・ブグローによる「ブルトン兄妹」は、1871年に制作されたキャンバスに油彩の肖像画です。兄妹の穏やかな表情と繊細な描写が特徴で、19世紀フランスの写実主義を代表する作品の一つです。この作品はキャサリン・ロリラード・ウルフの遺贈により、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "435756": {
+      "titleEn": "A Classical Landscape",
+      "titleJa": "クラシカルな風景",
+      "artist": "Sébastien Bourdon",
+      "artistJa": "セバスチャン・ブルドン",
+      "date": "probably 1660s",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123839.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123839.jpg",
+      "descriptionJa": "セバスチャン・ブルドンによる「クラシカルな風景」は、17世紀フランスの油彩画です。馬や人々が織りなす穏やかな自然の風景が特徴で、古典的な構図が魅力的です。この作品は1985年に母コンスタンス・アスキューの記念として寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "435758": {
       "titleEn": "A Woman Playing a Harp",
       "titleJa": "ハープを弾く女性",
@@ -494,6 +619,32 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/57123.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/57123.jpg",
       "descriptionJa": "ジョセフ・ボゼによる「男の肖像」は、およそ1790年頃に制作されたアイボリーのミニチュア絵画です。小さな楕円形の作品で、繊細な筆致で男性の表情が丁寧に描かれています。この作品は1923年にメアリー・クラーク・トンプソンから寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "435772": {
+      "titleEn": "Sentimental Conversation",
+      "titleJa": "センチメンタルな会話",
+      "artist": "Quirijn van Brekelenkam",
+      "artistJa": "クイリン・ファン・ブレケレンカム",
+      "date": "early 1660s",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145925.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145925.jpg",
+      "descriptionJa": "クイリン・ファン・ブレケレンカムによる「センチメンタルな会話」は、木に油彩で描かれた17世紀オランダの作品です。室内で楽器を囲み、親密な会話を交わす男女の様子が繊細に表現されています。この作品はマイケル・フリードサムの遺贈により、1931年からメトロポリタン美術館に所蔵されています。"
+    },
+    "435776": {
+      "titleEn": "Joseph Interpreting the Dreams of Pharaoh",
+      "titleJa": "パロの夢を解釈するヨセフ",
+      "artist": "Jörg Breu the Younger",
+      "artistJa": "若き日のイェルク・ブルー",
+      "date": "ca. 1534–47",
+      "medium": "Distemper on linen",
+      "mediumJa": "リネンにジステンパー",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164851.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP164851.jpg",
+      "descriptionJa": "この作品は若き日のイェルク・ブルーによる「パロの夢を解釈するヨセフ」というリネンにジステンパーで描かれた絵画です。ヨセフがエジプトの王パロの夢を解き明かす場面が生き生きと表現され、多くの群衆や犬も描かれているのが特徴です。16世紀ドイツ、アウクスブルクで制作され、1889年にヘンリー・G・マーカンドによってマーカンド・コレクションに寄贈されました。"
     },
     "435799": {
       "titleEn": "Eye Miniature",
@@ -560,6 +711,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT345086.jpg",
       "descriptionJa": "この作品はアダム・バックによる1804年のアイボリーに描かれたミニチュア肖像画で、ハミルトン夫人エマとされる女性を描いています。繊細な筆致で女性の優雅な表情が表現されており、当時の上流社会のファッションや美意識をうかがわせます。アイルランド出身の画家バックはロンドンで活躍し、この作品はモーゼス・ラザロ・コレクションとしてニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "435843": {
+      "titleEn": "Winter Scene",
+      "titleJa": "冬景色",
+      "artist": "Jan van de Cappelle",
+      "artistJa": "ヤン・ファン・デ・カペル",
+      "date": "",
+      "medium": "Oil on oak",
+      "mediumJa": "オーク材に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143174.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP143174.jpg",
+      "descriptionJa": "ヤン・ファン・デ・カペルによる「冬景色」は、オーク材に油彩で描かれた18、19世紀のオランダ絵画です。凍った川でスケートを楽しむ人々や家々の静かな冬の風景が繊細に表現されています。この作品は1931年にマイケル・フリードサムの遺贈によりフリードサム・コレクションに加わりました。"
+    },
     "435844": {
       "titleEn": "The Musicians",
       "titleJa": "ミュージシャン",
@@ -625,6 +789,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-20594-001.jpg",
       "descriptionJa": "ペトルス・クリストゥスによる「哀歌」は、約1450年に制作された木に油彩の作品です。イエス・キリストの死を嘆く聖母マリアやマグダラのマリア、使徒ヨハネが描かれ、その悲しみが静かに表現されています。この作品はネーデルラント地方で活動した画家によるもので、マーカンド・コレクションとして1890年にヘンリー・G・マーカンドから寄贈されました。"
     },
+    "435912": {
+      "titleEn": "Charles IX (1550–1574), King of France",
+      "titleJa": "シャルル9世（1550-1574）フランス王",
+      "artist": "François Clouet",
+      "artistJa": "フランソワ・クルーエ",
+      "date": "",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19300-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-19300-001.jpg",
+      "descriptionJa": "フランソワ・クルーエによる「シャルル9世（1550-1574）フランス王」は、木に油彩で描かれた肖像画です。若き王の繊細な表情と豪華な衣装が特徴で、16世紀フランスの王室の権威を感じさせます。この作品は1561年頃に制作され、現在はメトロポリタン美術館に所蔵されています。"
+    },
     "435914": {
       "titleEn": "Guillaume Budé (1467–1540)",
       "titleJa": "ギヨーム・ブデ（1467-1540）",
@@ -637,6 +814,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25742-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-25742-001.jpg",
       "descriptionJa": "これはジャン・クルーエによる木に油彩で描かれた肖像画「ギヨーム・ブデ（1467-1540）」です。知識人であるブデの落ち着いた表情と書物が彼の学識を象徴しています。16世紀フランスの文化と人文主義の精神を反映した作品で、現在ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "435926": {
+      "titleEn": "Portrait of a Woman",
+      "titleJa": "ある女性の肖像",
+      "artist": "Continental Painter",
+      "artistJa": "コンチネンタル・ペインター",
+      "date": "",
+      "medium": "Oil on copper",
+      "mediumJa": "銅に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/175503.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/175503.jpg",
+      "descriptionJa": "この作品はコンチネンタル・ペインターによる「ある女性の肖像」で、約1630年ごろに制作されました。銅板に油彩で描かれた小さな楕円形のミニチュアで、繊細な筆使いが特徴です。ミリー・ブルール・フレデリックの遺贈により1962年にメトロポリタン美術館に収蔵されました。"
     },
     "435932": {
       "titleEn": "Portrait of a Woman",
@@ -729,6 +919,45 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1962.jpg",
       "descriptionJa": "「ムッシュー・スイス」は、ギュスターヴ・クールベによる1861年のキャンバスに油彩で描かれた肖像画です。画面には落ち着いた表情の男性が写されており、リアリズムの手法で人物の存在感が強調されています。この作品はH.O.ハヴマイヤー夫人の遺贈により1929年にメトロポリタン美術館に収蔵されました。"
     },
+    "436021": {
+      "titleEn": "The Sea",
+      "titleJa": "海",
+      "artist": "Gustave Courbet",
+      "artistJa": "ギュスターヴ・クールベ",
+      "date": "1865 or later",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24650-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-24650-001.jpg",
+      "descriptionJa": "ギュスターヴ・クールベによる「海」は、キャンバスに油彩で描かれた写実的な海景画です。広がる空と波の動きが力強く表現されており、自然の壮大さを感じさせます。この作品は19世紀フランスの画家によるもので、1922年にディクラン・G・ケレキアンの寄贈によってメトロポリタン美術館に収蔵されました。"
+    },
+    "436071": {
+      "titleEn": "Saint Reparata Tortured with Red-Hot Irons",
+      "titleJa": "赤熱アイロンで拷問されるセイント・レパラータ",
+      "artist": "Bernardo Daddi",
+      "artistJa": "ベルナルド・ダディ",
+      "date": "",
+      "medium": "Tempera on wood, gold ground (tooled pattern added possibly in the late nineteenth century)",
+      "mediumJa": "木にテンペラ、金地（19世紀後半に加えられたと思われる工具による模様）",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13338-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-13338-001.jpg",
+      "descriptionJa": "ベルナルド・ダディによる「赤熱アイロンで拷問されるセイント・レパラータ」は、木にテンペラで描かれた作品で、金地に工具で模様が施されています。聖レパラータの苦難を表現し、宗教的な殉教のテーマが強調されています。この作品は19世紀後半に加えられたとされる金地の装飾が特徴で、ジョージ・ブルメンタールの遺贈によりメトロポリタン美術館に所蔵されています。"
+    },
+    "436077": {
+      "titleEn": "Portrait of a Woman",
+      "titleJa": "ある女性の肖像",
+      "artist": "Michael Dahl",
+      "artistJa": "マイケル・ダール",
+      "date": "",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169402.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169402.jpg",
+      "descriptionJa": "マイケル・ダールによる「ある女性の肖像」は、キャンバスに油彩で描かれた大作です。繊細な筆致で女性の表情や衣装の質感が丁寧に表現されており、17世紀から18世紀にかけてのヨーロッパの肖像画の特徴を示しています。この作品は1956年にルイ・ブルギエールを偲んでマーガレット・ブルギエールから寄贈され、現在ニューヨークのメトロポリタン美術館に収蔵されています。"
+    },
     "436079": {
       "titleEn": "Uvedale Tomkyns Price (1685–1764) and Members of His Family",
       "titleJa": "ユヴェデール・トムキンズ・プライス（1685-1764）とその一族",
@@ -755,6 +984,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT-19374-001.jpg",
       "descriptionJa": "この作品「受胎告知」は、ネーデルラント出身の画家ジェラルド・デビッドによる1506年の木に油彩で描かれた絵画です。大天使ガブリエルが聖母マリアに神の子の受胎を告げる瞬間を繊細に表現しており、細部まで丁寧に描かれた衣装や背景が印象的です。もとはポリプティクの一部で、1950年にメアリー・スティルマン・ハークネスの遺贈としてメトロポリタン美術館に収蔵されました。"
     },
+    "436114": {
+      "titleEn": "The Experts",
+      "titleJa": "エキスパート",
+      "artist": "Alexandre-Gabriel Decamps",
+      "artistJa": "アレクサンドル＝ガブリエル・デカン",
+      "date": "1837",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT209332.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT209332.jpg",
+      "descriptionJa": "アレクサンドル＝ガブリエル・デカンによる「エキスパート」は、1837年に制作されたキャンバスに油彩の作品です。猿たちが専門家のように振る舞うユーモラスな風刺画で、人間の社会や知識に対する批評が込められています。フランス・パリ出身のデカンは、19世紀の風刺画家として知られており、この作品はH.O.ハヴマイヤー夫人の遺贈によりメトロポリタン美術館に収蔵されています。"
+    },
     "436121": {
       "titleEn": "A Woman Seated beside a Vase of Flowers (Madame Paul Valpinçon?)",
       "titleJa": "花瓶の横に座る女性（ポール・ヴァルパンソン夫人？）",
@@ -767,6 +1009,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25460-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-25460-001.jpg",
       "descriptionJa": "エドガー・ドガによる「花瓶の横に座る女性（ポール・ヴァルパンソン夫人？）」は、1865年に制作されたキャンバスに油彩の作品です。静かに花瓶のそばに座る女性の姿が繊細に描かれており、光と影の表現が印象的です。この作品は1929年にH.O.ハヴマイヤー夫人からの寄贈によりメトロポリタン美術館に収蔵されました。"
+    },
+    "436167": {
+      "titleEn": "Two Dancers, Half-length",
+      "titleJa": "二人のダンサー、半身",
+      "artist": "Edgar Degas",
+      "artistJa": "エドガー・ドガ",
+      "date": "",
+      "medium": "Pastel and charcoal on tracing paper with a joined strip, laid down on cardboard",
+      "mediumJa": "トレーシングペーパーにパステルと木炭を貼り、厚紙に敷いたもの。",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP232029.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP232029.jpg",
+      "descriptionJa": "エドガー・ドガによる「二人のダンサー、半身」は、トレーシングペーパーにパステルと木炭を用いて描かれたドローイング作品です。軽やかな線と繊細な色使いで、バレエダンサーの動きと表情が生き生きと表現されています。19世紀末のパリで活躍したドガは、バレエを主題にした作品で知られ、当時の舞台芸術の魅力を捉えました。"
     },
     "436180": {
       "titleEn": "The Natchez",
@@ -806,6 +1061,32 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22910-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-22910-001.jpg",
       "descriptionJa": "この作品はアブラハム・ファン・ディーペンベックによる油彩画「聖セシリア」です。聖セシリアは音楽の守護聖人として描かれ、楽器を持つ姿が印象的です。フランドル出身の画家による17世紀の作品で、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "436207": {
+      "titleEn": "Don Quixote and Sancho Panza Entertained by Basil and Quiteria",
+      "titleJa": "ドン・キホーテとサンチョ・パンサ、バジルとキテリアにもてなされる",
+      "artist": "Gustave Doré",
+      "artistJa": "ギュスターヴ・ドレ",
+      "date": "1863?",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP318275.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP318275.jpg",
+      "descriptionJa": "ギュスターヴ・ドレによる1863年頃の油彩画「ドン・キホーテとサンチョ・パンサ、バジルとキテリアにもてなされる」です。ドン・キホーテとサンチョ・パンサが室内でバジルとキテリアに囲まれ、穏やかな交流の場面が描かれています。この作品はフランスの19世紀の画家ドレの代表作の一つで、1928年にウィリアム・A・マクファデン夫人とジャイルズ・ホワイティング夫人からメトロポリタン美術館に寄贈されました。"
+    },
+    "436211": {
+      "titleEn": "Portrait of a Man (Self-Portrait?)",
+      "titleJa": "男の肖像（自画像？）",
+      "artist": "Willem Drost",
+      "artistJa": "ウィレム・ドロスト",
+      "date": "1653 or 1655",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146487.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP146487.jpg",
+      "descriptionJa": "これはウィレム・ドロストによる「男の肖像（自画像？）」という油彩画です。落ち着いた表情と繊細な筆致が特徴で、17世紀オランダの写実主義の影響が感じられます。作品は1941年にフェリックス・M・ウォーバーグの追悼として、彼の妻と子供たちからメトロポリタン美術館に寄贈されました。"
     },
     "436236": {
       "titleEn": "Benjamin Franklin (1706–1790)",
@@ -898,6 +1179,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/64044.jpg",
       "descriptionJa": "ジョージ・エングルハートによる「ウッドフォード大佐」は、アイボリーに描かれたイギリスのミニチュア肖像画です。小さな楕円形の作品ながら、細密な筆致で大佐の威厳ある表情が捉えられています。18世紀末の制作で、1900年にコリス・P・ハンティントンからメトロポリタン美術館に寄贈されました。"
     },
+    "436282": {
+      "titleEn": "The Crucifixion; The Last Judgment",
+      "titleJa": "磔刑、最後の審判",
+      "artist": "Jan van Eyck",
+      "artistJa": "ヤン・ファン・エイク",
+      "date": "ca. 1436–38",
+      "medium": "Oil on canvas, transferred from wood",
+      "mediumJa": "キャンバスに油彩、木から転写",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/LC-33_92ab-Primary_Temp.jpg",
+      "descriptionJa": "ヤン・ファン・エイクによる「磔刑、最後の審判」は、キャンバスに油彩で描かれた二部作の絵画です。磔刑と最後の審判というキリスト教の重要なテーマを通じて、細密な描写と象徴的な表現が特徴的です。15世紀のネーデルランドで制作され、宗教的な信仰と芸術の融合を示しています。"
+    },
     "436288": {
       "titleEn": "Abraham Dismissing Hagar and Ishmael",
       "titleJa": "ハガルとイシュマエルを見捨てるアブラハム",
@@ -910,6 +1204,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143212.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP143212.jpg",
       "descriptionJa": "バレント・ファブリティウスによる「ハガルとイシュマエルを見捨てるアブラハム」は、木に油彩で描かれた17世紀オランダの作品です。画面には、アブラハムがハガルとその子イシュマエルを見捨てる聖書の一場面が力強く表現されています。この絵は1971年にハリー・G・スペリングの遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
+    "436334": {
+      "titleEn": "Madonna and Child",
+      "titleJa": "聖母子",
+      "artist": "Francesco Francia",
+      "artistJa": "フランチェスコ・フランシア",
+      "date": "1490s",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP247207.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP247207.jpg",
+      "descriptionJa": "フランチェスコ・フランシアによる「聖母子」は、15世紀末のイタリア・ボローニャで制作された木に油彩の作品です。聖母マリアが幼子イエスを優しく抱く姿が繊細に描かれており、穏やかな表情と温かな色彩が特徴です。この作品は1982年にルイス・C・レディアード三世らの寄贈により、ニューヨークのメトロポリタン美術館に収蔵されました。"
     },
     "436339": {
       "titleEn": "Portrait of a Member of the de Thou Family",
@@ -937,6 +1244,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-22750-001.jpg",
       "descriptionJa": "この作品は、北フランスの画家による15世紀頃のキャンバスに油彩で描かれた祭壇画の一部です。聖アドリアヌスと二人の聖人（アチェとアチョルとされる）の殉教の場面が力強く表現されており、宗教的なテーマが際立っています。1921年にマイケル・ドライサー氏から寄贈されたもので、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "436418": {
+      "titleEn": "Jerusalem from the Mount of Olives",
+      "titleJa": "オリーブ山からのエルサレム",
+      "artist": "Charles-Théodore Frère",
+      "artistJa": "シャルル＝テオドール・フレール",
+      "date": "by 1880",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2000.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT2000.jpg",
+      "descriptionJa": "シャルル＝テオドール・フレールによる「オリーブ山からのエルサレム」は、キャンバスに油彩で描かれた作品です。オリーブ山の高台から見下ろすエルサレムの風景が、砂漠や丘、ラクダやテントとともに細やかに表現されています。19世紀のフランスのオリエンタリズムの影響を受けた本作は、1880年頃に制作され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "436439": {
       "titleEn": "Portrait of a Young Woman, Called Miss Sparrow",
       "titleJa": "ミス・スパロウと呼ばれた若い女性の肖像",
@@ -963,6 +1283,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-25980-001.jpg",
       "descriptionJa": "この作品はガロファロ（ベンヴェヌート・ティージ・ダ・ガロファロ）による「鳥を蘇らせるトレンティーノの聖ニコラス」という油彩画で、木製パネルからキャンバスに転写されたものです。聖ニコラスが鳥を蘇らせる奇跡の場面が描かれており、繊細な筆使いで神聖な雰囲気が表現されています。イタリア・フェラーラの画家による16世紀初頭の作品で、1917年にJ・ピアポント・モルガンからメトロポリタン美術館に寄贈されました。"
     },
+    "436450": {
+      "titleEn": "Still Life",
+      "titleJa": "静物",
+      "artist": "Paul Gauguin",
+      "artistJa": "ポール・ゴーギャン",
+      "date": "",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1501.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1501.jpg",
+      "descriptionJa": "ポール・ゴーギャンによる「静物」は、キャンバスに油彩で描かれた作品です。果物や花瓶が鮮やかな色彩で表現され、19世紀後半フランスの独特な美的感覚を感じさせます。この作品はアデレード・ミルトン・デ・グルート嬢の遺贈により、1967年にメトロポリタン美術館に収蔵されました。"
+    },
     "436453": {
       "titleEn": "Esther before Ahasuerus",
       "titleJa": "アハシュエロス前のエステル",
@@ -976,6 +1309,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-20748-001.jpg",
       "descriptionJa": "この作品はアルテミシア・ジェンティレスキによる1620年代の油彩画で、「アハシュエロス前のエステル」と題されています。キャンバスに描かれた大作で、王の前で勇気を振り絞るエステルの姿が印象的です。イタリアのバロック期を代表する女性画家の一人による作品で、1969年にエリナー・ドランス・インガーソル氏から寄贈されました。"
     },
+    "436482": {
+      "titleEn": "Prayer in the Mosque",
+      "titleJa": "モスクでの祈り",
+      "artist": "Jean-Léon Gérôme",
+      "artistJa": "ジャン＝レオン・ジェローム",
+      "date": "by 1874",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1971.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1971.jpg",
+      "descriptionJa": "ジャン＝レオン・ジェロームによる「モスクでの祈り」は、キャンバスに油彩で描かれた作品です。繊細なアーチや柱が特徴的で、静謐なモスクの内部空間が表現されています。この作品は19世紀のオリエンタリズムの影響を受け、宗教的な儀式の一場面を写実的に描いています。キャサリン・ロリラード・ウルフの遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "436499": {
       "titleEn": "Diana the Huntress",
       "titleJa": "ダイアナ・ザ・ハントレス",
@@ -988,6 +1334,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-033.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-033.jpg",
       "descriptionJa": "ジャンピエトリーノ（ジョヴァンニ・ピエトロ・リッツォーリ）による「ダイアナ・ザ・ハントレス」は、木に油彩で描かれた作品です。弓矢を持ち、鹿とともに描かれた狩猟の女神ダイアナの姿が印象的で、優雅な女性美と神話的なテーマが融合しています。イタリア、ミラノで1495年頃から活躍した画家によるもので、1989年にフランク・E・リチャードソン夫妻から寄贈されました。"
+    },
+    "436512": {
+      "titleEn": "Paradise",
+      "titleJa": "パラダイス",
+      "artist": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+      "artistJa": "ジョヴァンニ・ディ・パオロ（ジョヴァンニ・ディ・パオロ・ディ・グラツィア）",
+      "date": "1445",
+      "medium": "Tempera and gold on canvas, transferred from wood",
+      "mediumJa": "テンペラ、金、キャンバス、木から転写",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19297-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-19297-001.jpg",
+      "descriptionJa": "ジョヴァンニ・ディ・パオロによる「パラダイス」は、テンペラと金彩で描かれたキャンバス上の絵画で、もともとは木板に描かれていました。作品には天使や聖人、ウサギが描かれ、楽園の庭園の神聖で平和な雰囲気が表現されています。15世紀イタリア、シエナ派の宗教画の一例であり、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
     "436520": {
       "titleEn": "Marie Adélaïde de Savoie (1685–1712), Duchesse de Bourgogne",
@@ -1015,6 +1374,45 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-22884-001.jpg",
       "descriptionJa": "この作品はゴヤによるキャンバスに油彩で描かれた肖像画で、マリア・ルイサ皇太子とその息子カルロス・ルイスが描かれています。母子の穏やかで親密な表情が印象的で、当時のスペイン王室の雰囲気を感じさせます。1915年にセオドア・M・デイヴィスの遺贈によってメトロポリタン美術館に収蔵されました。"
     },
+    "436558": {
+      "titleEn": "View of Haarlem and the Haarlemmer Meer",
+      "titleJa": "ハールレムとハールレマー川の眺め",
+      "artist": "Jan van Goyen",
+      "artistJa": "ヤン・ファン・ゴーエン",
+      "date": "1646",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146495.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP146495.jpg",
+      "descriptionJa": "ヤン・ファン・ゴーエンによる「ハールレムとハールレマー川の眺め」は、1646年に制作された木に油彩の風景画です。広がる風車と穏やかな水面がオランダの田園風景を美しく表現しており、当時の自然と人々の生活が感じられます。この作品は1871年にメトロポリタン美術館が購入し、ヨーロッパ絵画の重要な一例となっています。"
+    },
+    "436570": {
+      "titleEn": "The Adoration of the Shepherds",
+      "titleJa": "羊飼いたちの礼拝",
+      "artist": "El Greco (Domenikos Theotokopoulos)",
+      "artistJa": "エル・グレコ（ドメニコス・テオトコプロス）",
+      "date": "ca. 1605–10",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123919.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123919.jpg",
+      "descriptionJa": "エル・グレコ（ドメニコス・テオトコプロス）による「羊飼いたちの礼拝」は、1605年から1610年頃に制作されたキャンバスに油彩の作品です。羊飼いたちが幼子イエスを囲み、神聖な光が降り注ぐ場面が特徴的で、エル・グレコ独特の伸びやかな人物表現と光の使い方が印象的です。ギリシア出身でスペイン・トレドで活躍した彼の代表作の一つであり、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "436582": {
+      "titleEn": "Head of a Young Woman",
+      "titleJa": "若い女性の頭部",
+      "artist": "Jean-Baptiste Greuze",
+      "artistJa": "ジャン＝バティスト・グルーズ",
+      "date": "possibly 1780s",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18078-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-18078-001.jpg",
+      "descriptionJa": "ジャン＝バティスト・グルーズによる「若い女性の頭部」は、キャンバスに油彩で描かれた肖像画です。柔らかな光と繊細な表情が特徴で、18世紀後半のフランス絵画の繊細な美意識を感じさせます。この作品は1967年にアデレード・ミルトン・デ・グルート嬢の遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "436590": {
       "titleEn": "The Empress Elizabeth of Russia (1709–1762) on Horseback, Attended by a Page",
       "titleJa": "馬に乗ったロシア皇后エリザベート（1709-1762年）。",
@@ -1040,6 +1438,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep22.174.bw.R.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/ep22.174.bw.R.jpg",
       "descriptionJa": "ヨハン・ニコラウス・グルースによる「ある女性の肖像」は、キャンバスに油彩で描かれた作品です。女性の穏やかな表情とともに、鮮やかなオウムが描かれており、当時の貴族や富裕層の趣味を感じさせます。この作品は1922年にエドゥアール・ジョナスから寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "436618": {
+      "titleEn": "Anna van der Aar (born 1576/77, died after 1626)",
+      "titleJa": "アンナ・ファン・デル・アール（1576/77生、1626年以降没）",
+      "artist": "Frans Hals",
+      "artistJa": "フランス・ハルス",
+      "date": "1626",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP171420.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP171420.jpg",
+      "descriptionJa": "フランス・ハルスによる1626年の作品「アンナ・ファン・デル・アール」は、木に油彩で描かれた肖像画です。細やかな筆致で表現された女性の表情や衣装から、17世紀オランダの上流社会の雰囲気が伝わってきます。この作品はH.O.ハヴマイヤー夫人の遺贈によりメトロポリタン美術館に所蔵されています。"
     },
     "436622": {
       "titleEn": "Merrymakers at Shrovetide",
@@ -1119,6 +1530,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/EP966.jpg",
       "descriptionJa": "ジャン＝ジャック・ヘネルによる1881年の油彩画「海水浴客（エコー）」は、キャンバスに描かれた女性のヌード作品です。やわらかな光と繊細な色使いで、静かな水辺の情景が表現されています。この作品はキャサリン・ロリラード・ウルフの遺贈により、メトロポリタン美術館に所蔵されています。"
     },
+    "436660": {
+      "titleEn": "Portrait of a Man in Royal Livery",
+      "titleJa": "王室御用達の男の肖像",
+      "artist": "Hans Holbein the Younger",
+      "artistJa": "ハンス・ホルベイン",
+      "date": "1532–35",
+      "medium": "Oil and gold on parchment, laid down on linden",
+      "mediumJa": "羊皮紙に油と金、菩提樹の上に敷く",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280848.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP280848.jpg",
+      "descriptionJa": "この作品はハンス・ホルベインによる「王室御用達の男の肖像」で、羊皮紙に油彩と金彩を用い、菩提樹の板に貼り付けられています。細密な描写で王室の服装をリアルに表現し、16世紀のヨーロッパ貴族の風俗を伝えています。1950年にメアリー・スティルマン・ハークネスの遺贈によりニューヨークのメトロポリタン美術館に収蔵されました。"
+    },
     "436672": {
       "titleEn": "Christ among the Doctors",
       "titleJa": "医師の中のキリスト",
@@ -1145,6 +1569,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP167134.jpg",
       "descriptionJa": "ジョン・ホップナーによる「ヘスター・キング夫人（1873年没）」は、キャンバスに油彩で描かれた肖像画です。穏やかな表情と優雅な姿勢が特徴的で、19世紀初頭のイギリス貴族の風格を感じさせます。この作品は1959年にバーナード・M・バルークが妻アニー・グリフェン・バルークの記念としてメトロポリタン美術館に寄贈されました。"
     },
+    "436704": {
+      "titleEn": "Edmond Cavé (1794–1852)",
+      "titleJa": "エドモン・カヴェ（1794-1852）",
+      "artist": "Jean Auguste Dominique Ingres",
+      "artistJa": "ジャン・オーギュスト・ドミニク・イングル",
+      "date": "1844",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1996.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1996.jpg",
+      "descriptionJa": "ジャン・オーギュスト・ドミニク・イングルによる「エドモン・カヴェ（1794-1852）」は、キャンバスに油彩で描かれた肖像画です。繊細な筆致で表現された男性の表情からは、その人物の内面が感じられます。この作品は1943年にグレース・レイニー・ロジャースからメトロポリタン美術館に遺贈されました。"
+    },
     "436715": {
       "titleEn": "Napoléon I (1769–1821)",
       "titleJa": "ナポレオン1世（1769-1821）",
@@ -1158,6 +1595,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP327729.jpg",
       "descriptionJa": "この作品はジャン・バティスト・イザベイによる1812年制作のアイボリーに描かれたミニチュア肖像画で、ナポレオン1世を細やかに表現しています。小さな楕円形のキャンバスに繊細な筆致で描かれており、当時のフランス宮廷文化を反映しています。ヘレン・O・ブライス氏の寄贈により、現在はニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "436724": {
+      "titleEn": "Expectation",
+      "titleJa": "期待",
+      "artist": "Jozef Israëls",
+      "artistJa": "ヨゼフ・イスラエルス",
+      "date": "",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep87.8.13.R.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/ep87.8.13.R.jpg",
+      "descriptionJa": "ヨゼフ・イスラエルスによる「期待」は、キャンバスに油彩で描かれた作品です。女性が針仕事をしながら何かを待つ静かな瞬間が捉えられており、日常生活の繊細な感情が表現されています。オランダの19世紀後半の画家によるもので、1887年にジョージ・I・セネーが寄贈しました。"
+    },
     "436736": {
       "titleEn": "Madonna and Child with Angels",
       "titleJa": "天使と聖母子",
@@ -1170,6 +1620,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep64.288.bw.R.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/ep64.288.bw.R.jpg",
       "descriptionJa": "この作品は15世紀第3四半期のイタリア・フィレンツェの画家による木に油彩で描かれた「天使と聖母子」です。聖母子が優しく抱かれ、周囲には天使たちが描かれているのが特徴です。1964年にC・マイケル・ポール大佐から寄贈されたもので、ヨーロッパ絵画の重要な一例としてメトロポリタン美術館に所蔵されています。"
+    },
+    "436743": {
+      "titleEn": "The Annunciation",
+      "titleJa": "受胎告知",
+      "artist": "Italian (Marchigian?) Painter",
+      "artistJa": "イタリア（マルキジアン？",
+      "date": "",
+      "medium": "Tempera and gold on wood",
+      "mediumJa": "木にテンペラ、金",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep32.100.96.bw.R.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/ep32.100.96.bw.R.jpg",
+      "descriptionJa": "この作品「受胎告知」は、15世紀前半のイタリア（マルキジアン地方の可能性あり）の画家による木にテンペラと金を用いた絵画です。聖母マリアと大天使ガブリエルが描かれ、神聖な告知の瞬間を繊細に表現しています。マイケル・フリードサムの遺贈により1931年にメトロポリタン美術館に収蔵されました。"
     },
     "436747": {
       "titleEn": "Portrait of a Man",
@@ -1209,6 +1672,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep32.100.93.bw.R.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/ep32.100.93.bw.R.jpg",
       "descriptionJa": "この作品はイタリア（ヴェネツィア）の画家による15世紀第2四半期の木にテンペラで描かれた「聖母子」です。聖母と幼子イエスの温かい表情が特徴で、中世後期の宗教画の典型的なテーマを示しています。1931年にマイケル・フリードサムの遺贈としてメトロポリタン美術館に収蔵されました。"
+    },
+    "436767": {
+      "titleEn": "The Life of Christ",
+      "titleJa": "キリストの生涯",
+      "artist": "Franceschino Zavattari",
+      "artistJa": "フランチェスキーノ・ザバッタリ",
+      "date": "",
+      "medium": "Tempera on wood, gold ground",
+      "mediumJa": "木にテンペラ、金地",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP228761.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP228761.jpg",
+      "descriptionJa": "フランチェスキーノ・ザバッタリによる「キリストの生涯」は、木製パネルにテンペラと金地を用いた三連画です。中央パネルと左右の翼部分に、キリストの誕生から最後の晩餐までの重要な場面が細かく描かれています。イタリア・ミラノで1414年から1453年にかけて活動した画家の作品で、1909年にロジャーズ基金によってメトロポリタン美術館に収蔵されました。"
     },
     "436779": {
       "titleEn": "Portrait of a Woman",
@@ -1353,6 +1829,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-25136-001.jpg",
       "descriptionJa": "イグナシオ・デ・レオン・エスコスーラによる1876年の油彩画「ニューヨーク、クリントン・ホールでのオークション・セール」です。階段を囲む多くの男女が活気あるオークションの様子を描いており、当時の都市生活の一端を映し出しています。この作品は1883年に画家自身からメトロポリタン美術館に寄贈されました。"
     },
+    "436885": {
+      "titleEn": "Scene from a Novella",
+      "titleJa": "小説の一場面",
+      "artist": "Liberale da Verona",
+      "artistJa": "リベラーレ・ダ・ヴェローナ",
+      "date": "",
+      "medium": "Tempera on wood",
+      "mediumJa": "木にテンペラ",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8310.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT8310.jpg",
+      "descriptionJa": "リベラーレ・ダ・ヴェローナによる「小説の一場面」は、木にテンペラで描かれたカッソーネパネルの絵画です。男女が物語の一幕を演じる様子が繊細に表現されており、15世紀イタリアの室内装飾品としての役割も持っていました。ヴェローナ出身の画家が手掛けたこの作品は、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "436887": {
       "titleEn": "Prince Klemens Wenzel Lothar von Metternich (1773–1859)",
       "titleJa": "クレーメンス・ヴェンツェル・ローター・フォン・メッテルニヒ公（1773～1859年）",
@@ -1444,6 +1933,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123833.jpg",
       "descriptionJa": "ピエトロ・ロンギによる1746年の油彩画「手紙」は、ヴェネツィアの室内で手紙を読む女性を描いています。繊細な表情と細部まで描かれた家具や人形が、当時の貴族の生活を生き生きと伝えています。この作品はフレデリック・C・ヒューイット基金によって1912年にメトロポリタン美術館に収蔵されました。"
     },
+    "436905": {
+      "titleEn": "The Meeting",
+      "titleJa": "ミーティング",
+      "artist": "Pietro Longhi (Pietro Falca)",
+      "artistJa": "ピエトロ・ロンギ（ピエトロ・ファルカ）",
+      "date": "1746",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123846.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123846.jpg",
+      "descriptionJa": "ピエトロ・ロンギ（ピエトロ・ファルカ）による1746年の油彩画「ミーティング」です。ヴェネツィアの社交場面を描き、マスクをつけた男女が対話している様子が特徴的です。この作品は1936年にサミュエル・H・クレスから寄贈され、当時のイタリアの風俗を伝えています。"
+    },
     "436913": {
       "titleEn": "Moses",
       "titleJa": "モーセ",
@@ -1456,6 +1958,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19551-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-19551-001.jpg",
       "descriptionJa": "ロレンツォ・モナコ（ピエロ・ディ・ジョヴァンニ）による「モーセ」は、約1408年から1410年に制作された木にテンペラと金地を用いた作品です。モーセが持つ石版が特徴的で、旧約聖書の重要な場面を表現しています。この作品はイタリア、フィレンツェで制作され、現在はニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "436939": {
+      "titleEn": "The Peddler",
+      "titleJa": "行商人",
+      "artist": "Vladimir Egorovich Makovsky",
+      "artistJa": "ウラジーミル・エゴロビッチ・マコフスキー",
+      "date": "1880",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep1972.145.3.bw.R.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/ep1972.145.3.bw.R.jpg",
+      "descriptionJa": "ウラジーミル・エゴロビッチ・マコフスキーによる「行商人」は、1880年に制作された木に油彩の小品です。女性の姿を通じて、日常生活の一幕を写実的に描いています。この作品は1972年にヒューマニティーズ・ファンド社からメトロポリタン美術館に寄贈されました。"
     },
     "436984": {
       "titleEn": "The Adoration of the Magi",
@@ -1470,6 +1985,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-26501-001.jpg",
       "descriptionJa": "この作品はクインテン・マシスによる「三王礼拝」で、1526年に制作された木に油彩の絵画です。三人の東方の王が幼子イエスを礼拝する場面が細やかに描かれており、聖母マリアの優しい表情が印象的です。ネーデルラントのルーヴェン出身の画家によるこの作品は、ヨーロッパ絵画の重要な一例としてニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "436994": {
+      "titleEn": "Scenes from the Story of the Argonauts",
+      "titleJa": "アルゴノーツの物語のシーン",
+      "artist": "Jacopo di Arcangelo (called Jacopo del Sellaio)",
+      "artistJa": "ヤコポ・ディ・アルカンジェロ（ヤコポ・デル・セッライオと呼ばれる）",
+      "date": "ca. 1465",
+      "medium": "Tempera on wood, gilt ornaments",
+      "mediumJa": "木にテンペラ、金色の装飾",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164779.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP164779.jpg",
+      "descriptionJa": "この作品は、ヤコポ・ディ・アルカンジェロ（ヤコポ・デル・セッライオと呼ばれる）による約1465年の木にテンペラと金色の装飾を施した絵画です。アルゴノーツの物語の複数のシーンが描かれており、英雄ヘラクレスやケンタウロス、犬や馬、船などが登場する壮大な叙事詩が視覚的に表現されています。フィレンツェのルネサンス期の作家によるもので、1909年にJ・ピアポント・モルガンからメトロポリタン美術館に寄贈されました。"
+    },
     "437017": {
       "titleEn": "Virgin and Child",
       "titleJa": "聖母子",
@@ -1483,6 +2011,32 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-23269-001.jpg",
       "descriptionJa": "この作品はマンシ・マグダレン師範による「聖母子」で、木に油彩で描かれています。聖母マリアが幼子イエスを優しく抱く様子が繊細に表現されており、16世紀初頭のネーデルラント絵画の特徴を感じさせます。1920年にウィリアム・H・ヘリマンの遺贈によりメトロポリタン美術館に収蔵されました。"
     },
+    "437020": {
+      "titleEn": "Crucifix",
+      "titleJa": "十字架",
+      "artist": "Master of the Orcagnesque Misericordia",
+      "artistJa": "オルカネスク・ミゼリコルディアのマスター",
+      "date": "1370–75",
+      "medium": "Tempera on wood, gold ground",
+      "mediumJa": "木にテンペラ、金地",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24118-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-24118-001.jpg",
+      "descriptionJa": "この作品「十字架」は、14世紀後半にフィレンツェで活躍したオルカネスク・ミゼリコルディアのマスターによる木にテンペラと金地を用いた絵画です。キリストの受難を主題に、聖母マリアや聖ヨハネ、聖フランシスコなどの聖人たちが描かれており、宗教的な情感が豊かに表現されています。1927年にサミュエル・H・クレスから寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "437032": {
+      "titleEn": "Saint Paul with a Donor; Christ Appearing to His Mother",
+      "titleJa": "献金者と聖パウロ、キリストが母に現れる",
+      "artist": "Master of the Saint Ursula Legend",
+      "artistJa": "聖ウルスラ伝説のマスター",
+      "date": "ca. 1485",
+      "medium": "Oil on wood",
+      "mediumJa": "木に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT262309.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT262309.jpg",
+      "descriptionJa": "これは「献金者と聖パウロ、キリストが母に現れる」というタイトルの15世紀後半に制作された木に油彩の祭壇画の翼の一部です。聖パウロと献金者が描かれ、キリストが聖母マリアに現れる場面が対比的に表現されています。ネーデルラント出身の聖ウルスラ伝説のマスターによる作品で、現在はニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "437062": {
       "titleEn": "Virgin and Child",
       "titleJa": "聖母子",
@@ -1495,6 +2049,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT245520.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT245520.jpg",
       "descriptionJa": "この作品はハンス・メムリングによる「聖母子」で、木に油彩で描かれています。聖母マリアが幼子イエスを抱く姿が繊細に表現されており、リンゴが象徴的に描かれている点が特徴です。16世紀初頭のネーデルランドで制作され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "437063": {
+      "titleEn": "Madonna and Child with Saints and Angels",
+      "titleJa": "聖人と天使の聖母子",
+      "artist": "Lippo Memmi (Filippo di Memmo)",
+      "artistJa": "リッポ・メンミ（フィリッポ・ディ・メンモ）",
+      "date": "ca. 1350",
+      "medium": "Tempera on wood, gold ground",
+      "mediumJa": "木にテンペラ、金地",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP367960.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP367960.jpg",
+      "descriptionJa": "この作品はリッポ・メンミによる「聖人と天使の聖母子」という木にテンペラで描かれた絵画です。金地の背景が神聖さを強調し、聖母子を囲む聖人や天使たちが細やかに表現されています。14世紀シエナ派の特徴を示す作品で、1943年にメイトランド・F・グリッグスの遺贈としてメトロポリタン美術館に収蔵されました。"
     },
     "437083": {
       "titleEn": "The Marriage of the Virgin",
@@ -1652,6 +2219,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1863.jpg",
       "descriptionJa": "カミーユ・ピサロによる「朝、曇りの日、ルーアン」は、1896年に制作されたキャンバスに油彩の作品です。曇り空の下、ルーアンの街並みや川、橋、ボートが柔らかな色調で描かれており、静かな都市の朝の雰囲気が伝わってきます。ピサロは印象派の重要な画家であり、この作品はフランスの都市景観を詩的に捉えた一例です。"
     },
+    "437320": {
+      "titleEn": "Elizabeth Bushby",
+      "titleJa": "エリザベス・ブッシュビー",
+      "artist": "Andrew Plimer",
+      "artistJa": "アンドリュー・プライマー",
+      "date": "1804",
+      "medium": "Ivory",
+      "mediumJa": "アイボリー",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-43799-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-43799-001.jpg",
+      "descriptionJa": "これはアンドリュー・プライマーによる1804年制作のアイボリーに描かれたミニチュア肖像画「エリザベス・ブッシュビー」です。小さな楕円形の作品で、女性の繊細な表情と細部の丁寧な描写が特徴です。イギリスの18世紀から19世紀初頭にかけて流行したミニチュア肖像画の一例で、1900年にコリス・P・ハンティントンからメトロポリタン美術館に寄贈されました。"
+    },
     "437328": {
       "titleEn": "Midas Washing at the Source of the Pactolus",
       "titleJa": "パクトラスの源泉で洗濯するミダス",
@@ -1717,6 +2297,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145920.jpg",
       "descriptionJa": "この作品はレンブラント・ファン・レインによる「ヘンドリキエ・ストフェルス（1626-1663）」の肖像画で、キャンバスに油彩で描かれています。落ち着いた表情と柔らかな光の描写が特徴で、レンブラントの繊細な技法が感じられます。オランダの画家レンブラントが1650年代半ばに制作し、1926年にアーチャー・M・ハンティントンによってメトロポリタン美術館に寄贈されました。"
     },
+    "437425": {
+      "titleEn": "Marguerite-Thérèse (Margot) Berard (1874–1956)",
+      "titleJa": "マルグリット＝テレーズ（マルゴー）・ベラール（1874-1956）",
+      "artist": "Auguste Renoir",
+      "artistJa": "オーギュスト・ルノワール",
+      "date": "1879",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1489.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1489.jpg",
+      "descriptionJa": "この作品はオーギュスト・ルノワールによる1879年の油彩肖像画で、「マルグリット＝テレーズ（マルゴー）・ベラール」を描いています。柔らかな筆致と明るい色彩で、若い女性の優しい表情が印象的です。フランス印象派を代表するルノワールの作品で、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "437430": {
       "titleEn": "By the Seashore",
       "titleJa": "海辺にて",
@@ -1730,6 +2323,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-039.jpg",
       "descriptionJa": "オーギュスト・ルノワールによる1883年の油彩画「海辺にて」は、キャンバスに描かれた女性の肖像画です。柔らかな光と温かみのある色彩で、海辺の穏やかな雰囲気が表現されています。この作品は、フランス印象派の代表的な作家によるもので、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "437455": {
+      "titleEn": "The Holy Family with Saints Anne and Catherine of Alexandria",
+      "titleJa": "聖家族と聖アンナとアレクサンドリアのカタリナ",
+      "artist": "Jusepe de Ribera (called Lo Spagnoletto)",
+      "artistJa": "ジュセペ・デ・リベラ（ロ・スパニョレットと呼ばれる）",
+      "date": "1648",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT16.jpg",
+      "descriptionJa": "この作品はジュセペ・デ・リベラ（ロ・スパニョレットと呼ばれる）による1648年の油彩画「聖家族と聖アンナとアレクサンドリアのカタリナ」です。キャンバスに描かれた大作で、聖家族と共に聖アンナと聖カタリナが静かに寄り添う様子が印象的です。スペイン出身でナポリで活躍したリベラの宗教画は、深い精神性と写実的な表現で知られています。"
+    },
     "437457": {
       "titleEn": "The Baptism of Christ",
       "titleJa": "キリストの洗礼",
@@ -1742,6 +2348,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9354.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT9354.jpg",
       "descriptionJa": "セバスティアーノ・リッチによる「キリストの洗礼」は、1713年頃に制作されたキャンバスに油彩の作品です。天使や洗礼者ヨハネが描かれ、キリストの神聖な洗礼の瞬間を生き生きと表現しています。イタリア・ヴェネツィアで活躍したリッチのバロック様式が感じられる一作で、メトロポリタン美術館に所蔵されています。"
+    },
+    "437463": {
+      "titleEn": "Portrait of a General Officer",
+      "titleJa": "将校の肖像",
+      "artist": "Hyacinthe Rigaud",
+      "artistJa": "ヒアシン・リゴー",
+      "date": "ca. 1710",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-413-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-413-001.jpg",
+      "descriptionJa": "ヒアシン・リゴーによる「将校の肖像」は、1710年頃に制作されたキャンバスに油彩の作品です。威厳ある将校の姿が細やかに描かれ、軍人の身分や威厳が強調されています。リゴーは17世紀から18世紀にかけて活躍したフランスの画家で、貴族や高官の肖像画で知られています。"
     },
     "437468": {
       "titleEn": "The Portico of a Country Mansion",
@@ -1834,6 +2453,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/sf33-84s1.jpg",
       "descriptionJa": "この作品は、16～18世紀のロシアの画家によるイコン画で、木にテンペラと金を用いて描かれています。中央にキリストの子が描かれ、その両側に聖ボリスと聖グレブが配置されているのが特徴です。1933年にジョージ・D・プラット氏から寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "437581": {
+      "titleEn": "Mrs. Robert Shurlock Sr. (Ann Manwaring)",
+      "titleJa": "ロバート・シャーロック・シニア夫人（アン・マンワーリング）",
+      "artist": "John Russell",
+      "artistJa": "ジョン・ラッセル",
+      "date": "1801",
+      "medium": "Pastel on paper, laid down on canvas",
+      "mediumJa": "パステル、紙、キャンバス",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161651.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP161651.jpg",
+      "descriptionJa": "この作品はジョン・ラッセルによる1801年のパステル画で、「ロバート・シャーロック・シニア夫人（アン・マンワーリング）」を描いています。柔らかな色使いと繊細な表情が特徴で、当時のイギリス上流階級の女性の姿を捉えています。紙に描かれたパステル画をキャンバスに貼り付ける技法が用いられており、1975年にオリーブ・シャーロック・シェーランダー氏によって寄贈されました。"
+    },
     "437598": {
       "titleEn": "Portrait of a Man",
       "titleJa": "男の肖像",
@@ -1899,6 +2531,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1445b.jpg",
       "descriptionJa": "ジョヴァンニ・バッティスタ・ティエポロによる「カルタゴ攻略」は、キャンバスに油彩で描かれた壮大な戦闘シーンです。躍動感あふれる兵士や馬の描写が目を引き、歴史的な激戦の緊迫感が伝わってきます。18世紀ヴェネツィア出身のティエポロによるこの作品は、マドリードでの活動期に制作され、現在はニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "437802": {
+      "titleEn": "Neptune and the Winds",
+      "titleJa": "ネプチューンと風",
+      "artist": "Giovanni Battista Tiepolo",
+      "artistJa": "ジョヴァンニ・バッティスタ・ティエポロ",
+      "date": "1760s",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17536-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-17536-001.jpg",
+      "descriptionJa": "ジョヴァンニ・バッティスタ・ティエポロによる「ネプチューンと風」は、1760年代に描かれたキャンバスに油彩の作品です。円形の画面には、神話の海神ネプチューンと風の神々が躍動感あふれる姿で描かれています。この作品は天井画のスケッチとして制作され、イタリアのバロック様式を代表するティエポロの優れた技法がうかがえます。"
+    },
     "437826": {
       "titleEn": "Venus and Adonis",
       "titleJa": "ヴィーナスとアドニス",
@@ -1951,6 +2596,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-17394-001.jpg",
       "descriptionJa": "アンヌ・ヴァレイヤー＝コスターによる「花瓶と法螺貝」は、1780年に制作されたキャンバスに油彩の静物画です。繊細に描かれた花と貝殻が調和し、自然の美しさを巧みに表現しています。この作品は1906年にJ・ピアポント・モルガンから寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "437880": {
+      "titleEn": "Young Woman with a Lute",
+      "titleJa": "リュートを持つ若い女性",
+      "artist": "Johannes Vermeer",
+      "artistJa": "ヨハネス・フェルメール",
+      "date": "ca. 1662–63",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP354965.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP354965.jpg",
+      "descriptionJa": "ヨハネス・フェルメールによる「リュートを持つ若い女性」は、1662年頃に制作されたキャンバスに油彩の作品です。女性がリュートを奏でる静かな室内の様子が繊細に描かれており、光と影の対比が美しいです。この作品は1900年にコリス・P・ハンティントンから寄贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
     "437883": {
       "titleEn": "Portrait of a Man with a Rosary",
       "titleJa": "ロザリオを持つ男の肖像",
@@ -1964,6 +2622,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT8857.jpg",
       "descriptionJa": "ヤン・コルネリス・ヴェルメイエンによる1545年の「ロザリオを持つ男の肖像」は、木に油彩で描かれた作品です。男性が手にロザリオを持ち、宗教的な象徴性が感じられます。この絵画はジャック＆ベル・リンスキー・コレクションに収蔵されており、オランダのルネサンス期の肖像画の一例です。"
     },
+    "437886": {
+      "titleEn": "Harbor Scene with a Grotto and Fishermen Hauling in Nets",
+      "titleJa": "洞窟と網を運ぶ漁師のいる港の風景",
+      "artist": "Joseph Vernet",
+      "artistJa": "ジョセフ・ヴェルネ",
+      "date": "",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP312862.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP312862.jpg",
+      "descriptionJa": "ジョセフ・ヴェルネによる「洞窟と網を運ぶ漁師のいる港の風景」は、キャンバスに油彩で描かれた作品です。漁師たちが網を引き上げる様子や洞窟のある港の風景が細かく表現されており、18世紀後半のフランスの漁村の生活を感じさせます。この作品は1948年にキャサリン・D・ウェントワースの遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "437898": {
       "titleEn": "Madame Grand (Noël Catherine Vorlée, 1761–1835)",
       "titleJa": "マダム・グラン（ノエル・カトリーヌ・ヴォルレ、1761年-1835年）",
@@ -1976,6 +2647,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320094.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP320094.jpg",
       "descriptionJa": "エリザベス・ルイーズ・ヴィジェ・ル・ブランによる1783年の油彩肖像画「マダム・グラン（ノエル・カトリーヌ・ヴォルレ）」です。柔らかな光と繊細な筆致で、優雅な女性の表情と衣装が丁寧に描かれています。この作品はフランスの18世紀後半の貴族文化を反映しており、現在ニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "437909": {
+      "titleEn": "Saint Peter Martyr Healing the Leg of a Young Man",
+      "titleJa": "青年の足を癒す聖ペトロ殉教者",
+      "artist": "Antonio Vivarini",
+      "artistJa": "アントニオ・ビバリーニ",
+      "date": "ca. 1450",
+      "medium": "Tempera and gold on wood",
+      "mediumJa": "木にテンペラ、金",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP154560.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP154560.jpg",
+      "descriptionJa": "この作品はアントニオ・ビバリーニによる「青年の足を癒す聖ペトロ殉教者」というテンペラと金箔を用いた木製パネル画です。若者の足を癒す聖ペトロの慈悲深い姿が細やかな表現で描かれており、中世イタリアの宗教画の特徴を示しています。約1450年頃に制作され、1937年にサミュエル・H・クレス財団からメトロポリタン美術館に寄贈されました。"
     },
     "437916": {
       "titleEn": "Still Life with Cheese",
@@ -2042,6 +2726,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-26971-001.jpg",
       "descriptionJa": "フランシスコ・デ・スルバランによる「若き処女」は、1632年頃に制作されたキャンバスに油彩の作品です。静謐な表情の聖母マリアが白百合を手にし、清純さと信仰の象徴として描かれています。この作品はスペイン黄金時代の宗教画の典型であり、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "437983": {
+      "titleEn": "A Roman Landscape with Figures",
+      "titleJa": "人物のいるローマの風景",
+      "artist": "Goffredo Wals",
+      "artistJa": "ゴッフレード・ヴァルス",
+      "date": "probably 1630s",
+      "medium": "Oil on copper",
+      "mediumJa": "銅に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP293064.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP293064.jpg",
+      "descriptionJa": "この作品はゴッフレード・ヴァルスによる「人物のいるローマの風景」で、銅板に油彩で描かれています。古代ローマの遺跡が広がる風景の中に人物が配され、歴史の息吹を感じさせます。17世紀初頭のドイツ出身の画家によるもので、当時のヨーロッパにおける古典文化への関心を反映しています。"
+    },
     "437985": {
       "titleEn": "Pansies",
       "titleJa": "パンジー",
@@ -2067,6 +2764,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1027.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1027.jpg",
       "descriptionJa": "この作品はポール・ゴーギャンによる1896年の油彩画で、「ティーポットと果物のある静物」と題されています。鮮やかな色彩で描かれたティーポットと果物が印象的で、ゴーギャンの独特な色使いが感じられます。フランスのパリで生まれた彼は、後にタヒチなど南太平洋の島々で制作を続け、本作もその時代の彼の作風を反映しています。"
+    },
+    "438020": {
+      "titleEn": "Saint Julian",
+      "titleJa": "聖ユリアン",
+      "artist": "Taddeo Gaddi",
+      "artistJa": "タデオ・ガッディ",
+      "date": "1340s",
+      "medium": "Tempera on wood, gold ground",
+      "mediumJa": "木にテンペラ、金地",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT4166.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT4166.jpg",
+      "descriptionJa": "この作品はタデオ・ガッディによる1340年代の聖ユリアンを描いたテンペラ画で、木の板に金地を用いています。聖ユリアンは剣を持ち、聖人としての威厳が表現されています。イタリア・フィレンツェで活躍したガッディの中世ゴシック様式を特徴とし、1996年にローレ・ハイネマンの遺贈としてメトロポリタン美術館に収蔵されました。"
     },
     "438028": {
       "titleEn": "The Crucifixion",
@@ -2094,6 +2804,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-18259-001.jpg",
       "descriptionJa": "テオドール・シャセリオーによる「デズデモーナ（柳の歌）」は、1849年に制作された木に油彩の作品です。シェイクスピアの悲劇『オセロ』の登場人物デズデモーナが、柳の木の下でリラを奏でる繊細な表情が印象的です。この作品は2019年にチャールズ・ライツマン夫人の遺贈によりメトロポリタン美術館に収蔵されました。"
     },
+    "438110": {
+      "titleEn": "Rebecca and the Wounded Ivanhoe",
+      "titleJa": "レベッカと傷ついたイワンホー",
+      "artist": "Eugène Delacroix",
+      "artistJa": "ウジェーヌ・ドラクロワ",
+      "date": "1823",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19652-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-19652-001.jpg",
+      "descriptionJa": "ウジェーヌ・ドラクロワによる1823年の油彩画「レベッカと傷ついたイワンホー」です。傷ついたイワンホーを看護するレベッカの情感あふれる姿が印象的で、中世の騎士道物語を題材としています。フランスのロマン主義を代表する作家による作品で、2019年にチャールズ・ライツマン夫人の遺贈によりメトロポリタン美術館に収蔵されました。"
+    },
     "438112": {
       "titleEn": "Queen Henrietta Maria",
       "titleJa": "ヘンリエッタ・マリア女王",
@@ -2106,6 +2829,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18371-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-18371-001.jpg",
       "descriptionJa": "これはアンソニー・ファン・ダイクによる1636年の油彩画「ヘンリエッタ・マリア女王」です。女王の優雅さと威厳が繊細な筆致で表現されており、王冠をあしらった肖像画として知られています。本作はフランドル出身の画家がロンドンで制作し、2019年にアネット・デ・ラ・レンタを記念してチャールズ・ライトスマン夫人より遺贈されました。"
+    },
+    "438115": {
+      "titleEn": "The Bouquet of Violets",
+      "titleJa": "スミレの花束",
+      "artist": "Eva Gonzalès",
+      "artistJa": "エヴァ・ゴンザレス",
+      "date": "ca. 1877–78",
+      "medium": "Pastel on wove paper",
+      "mediumJa": "パステル、織布",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29208-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-29208-001.jpg",
+      "descriptionJa": "エヴァ・ゴンザレスによる「スミレの花束」は、1877年頃に制作されたパステル画です。織布に描かれた繊細なタッチで、女性とスミレの花束が優雅に表現されています。この作品は2019年にチャールズ・ライツマン夫人から遺贈され、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
     "438120": {
       "titleEn": "Woman in Turkish Dress, Seated on a Sofa",
@@ -2237,6 +2973,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-40824-001.jpg",
       "descriptionJa": "ルドヴィコ・カラッチによる「聖ペテロの否定」は、キャンバスに油彩で描かれた作品です。聖ペテロがイエスを知らないと否定する緊迫した瞬間が、劇的な光と影の対比で表現されています。イタリア・ボローニャの画家カラッチが1616年頃に制作し、2024年にマーク・フィッシュ氏と匿名の寄付者からメトロポリタン美術館に寄贈されました。"
     },
+    "438642": {
+      "titleEn": "Cloud Study (Early Evening)",
+      "titleJa": "クラウドスタディ（夕方）",
+      "artist": "Simon Denis",
+      "artistJa": "シモン・ドゥニ",
+      "date": "ca. 1786–1806",
+      "medium": "Oil on paper",
+      "mediumJa": "油彩・紙",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP103066.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP103066.jpg",
+      "descriptionJa": "シモン・ドゥニによる「クラウドスタディ（夕方）」は、油彩を紙に施した作品で、夕暮れ時の空に浮かぶ雲の繊細な表情が美しく描かれています。18世紀末から19世紀初頭にかけて活躍したフランドル出身の画家による自然観察の一例で、気象の移ろいを詩的に捉えています。この作品はホイーロック・ホイットニー3世の寄贈とチャールズ・S・マクヴェイ夫妻の寄贈による購入品交換を通じて、2003年にメトロポリタン美術館に収蔵されました。"
+    },
     "438654": {
       "titleEn": "Dramatic Scene with Monks in a Crypt",
       "titleJa": "地下室の修道士たちとのドラマチックなシーン",
@@ -2249,6 +2998,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169456.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169456.jpg",
       "descriptionJa": "アレクサンドル・エヴァリスト・フラゴナールによる「地下室の修道士たちとのドラマチックなシーン」は、キャンバスに油彩で描かれた絵画です。暗い地下室で修道士たちが集まる様子が劇的に表現されており、神秘的な雰囲気が印象的です。この作品は2003年にホイットニー・コレクションの寄贈品としてニューヨークのメトロポリタン美術館に収蔵されました。"
+    },
+    "438661": {
+      "titleEn": "Study of a Female Nude",
+      "titleJa": "女性ヌードの習作",
+      "artist": "Henri Lehmann",
+      "artistJa": "アンリ・レーマン",
+      "date": "1840",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP103071.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP103071.jpg",
+      "descriptionJa": "アンリ・レーマンによる1840年の「女性ヌードの習作」は、キャンバスに油彩で描かれた繊細な女性の裸体表現です。柔らかな光と陰影が肌の質感を巧みに捉え、古典的な美の探求を感じさせます。この作品は、2003年にホイーロック・ホイットニー3世の寄贈とチャールズ・S・マクヴェイ夫妻の寄贈による購入品の交換としてメトロポリタン美術館に収蔵されました。"
     },
     "438754": {
       "titleEn": "Madonna and Child",
@@ -2275,6 +3037,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP152164.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP152164.jpg",
       "descriptionJa": "マッティア・プレティ（イル・カバリエ・カラブレーゼ）による「洗礼者ヨハネの説教」は、約1650年に制作されたキャンバスに油彩の作品です。羊を従えた洗礼者ヨハネが力強く説教をしている様子が描かれており、宗教的なテーマと劇的な光の使い方が特徴です。この作品はメリッサ・O・アロンソン氏からトーマス・P・ミラー氏を偲んで2005年に寄贈されました。"
+    },
+    "438948": {
+      "titleEn": "View in the Stables of the Villa of Maecenas, Tivoli",
+      "titleJa": "チボリのマエケナス邸の厩舎の眺め",
+      "artist": "François Marius Granet",
+      "artistJa": "フランソワ・マリウス・グラネ",
+      "date": "ca. 1805–10",
+      "medium": "Oil on paper, laid down on canvas",
+      "mediumJa": "油彩、紙、キャンバス",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169470.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169470.jpg",
+      "descriptionJa": "フランソワ・マリウス・グラネによる「チボリのマエケナス邸の厩舎の眺め」は、油彩を紙に描きキャンバスに貼り付けた作品です。作品は厩舎内部のアーチ構造を繊細に捉え、静かな空間の趣を伝えています。1805年頃に制作され、2007年にユージン・V・ソウ氏からメトロポリタン美術館に寄贈されました。"
     },
     "439405": {
       "titleEn": "Madame Elisabeth de France (1764–1794)",
@@ -2314,6 +3089,19 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP226424.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP226424.jpg",
       "descriptionJa": "この作品はガエターノ・ガンドルフィによる「ビショップの長」で、キャンバスに油彩で描かれています。厳かな表情と細やかな筆致が特徴で、18世紀イタリアの宗教的な肖像画の一例です。ボローニャ出身の画家による約1770年の作品で、現在はニューヨークのメトロポリタン美術館に所蔵されています。"
+    },
+    "441104": {
+      "titleEn": "Still Life with Flowers and Prickly Pears",
+      "titleJa": "花と山椒の静物画",
+      "artist": "Auguste Renoir",
+      "artistJa": "オーギュスト・ルノワール",
+      "date": "ca. 1885",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP257756.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP257756.jpg",
+      "descriptionJa": "オーギュスト・ルノワールによる「花と山椒の静物画」は、1885年頃に制作されたキャンバスに油彩の作品です。鮮やかな花と山椒の実が生けられた花瓶が描かれており、光と色彩の豊かさが特徴的です。この作品は2010年にキャサリン・バンス・ガイスマンからメトロポリタン美術館に寄贈されました。"
     },
     "441111": {
       "titleEn": "Portrait of a Woman (Marianna Panciatichi, marchesa Paolucci delle Roncole, 1835–1919, or her sister-in-law, Beatrice Ferrari-Corbelli di Reggio, contessa di Lucciano)",
@@ -2393,6 +3181,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP286351.jpg",
       "descriptionJa": "フランチェスコ・トレビサーニによる「天使に支えられたキリストの死」は、約1710年に制作されたキャンバスに油彩の作品です。キリストの遺体を優しく支える天使たちの姿が、深い悲しみと神聖さを表現しています。この作品はイタリアのバロック期の宗教画の典型で、現在ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
+    "442183": {
+      "titleEn": "A Cardinal's Procession",
+      "titleJa": "枢機卿の行列",
+      "artist": "Ottavio Leoni (Il Padovano)",
+      "artistJa": "オッタビオ・レオーニ（イル・パドバーノ）",
+      "date": "1621",
+      "medium": "Oil on copper",
+      "mediumJa": "銅に油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20593-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-20593-001.jpg",
+      "descriptionJa": "オッタビオ・レオーニ（イル・パドバーノ）による「枢機卿の行列」は、1621年に制作された銅に油彩の作品です。荘厳な枢機卿の行列が細やかに描かれており、当時の宗教的儀式の様子を伝えています。イタリア・ローマで活躍した画家によるこの絵画は、ニューヨークのメトロポリタン美術館にて2012年にデイモン・メザカッパ氏から寄贈されました。"
+    },
     "442761": {
       "titleEn": "The Sacrifice of Polyxena",
       "titleJa": "ポリクセナの犠牲",
@@ -2419,6 +3220,19 @@
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP302453.jpg",
       "descriptionJa": "ウジェーヌ・カリエールによる「テーブルで縫う女性たち」は、1894年から1896年頃に制作されたキャンバスに油彩の作品です。柔らかな色調とぼかしの技法で、静かな家庭の一場面が温かく表現されています。この絵は、19世紀末のフランスにおける女性の日常生活を描いた貴重な記録でもあります。アリアーヌ＆アラン・キリリ夫妻の寄贈により、メトロポリタン美術館に所蔵されています。"
     },
+    "634108": {
+      "titleEn": "The Dream of the Shepherd (Der Traum des Hirten)",
+      "titleJa": "羊飼いの夢（Der Traum des Hirten）",
+      "artist": "Ferdinand Hodler",
+      "artistJa": "フェルディナンド・ホドラー",
+      "date": "1896",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP318843.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP318843.jpg",
+      "descriptionJa": "フェルディナンド・ホドラーによる1896年の油彩画『羊飼いの夢（Der Traum des Hirten）』です。キャンバスに描かれた大作で、夢見る羊飼いと女性のヌードが幻想的に融合しています。スイスの画家ホドラーは象徴主義の影響を受け、この作品は彼の精神的なテーマへの探求を示しています。"
+    },
     "643540": {
       "titleEn": "Portrait of a Woman",
       "titleJa": "ある女性の肖像",
@@ -2431,6 +3245,32 @@
       "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341866.jpg",
       "image": "https://images.metmuseum.org/CRDImages/ep/original/DP341866.jpg",
       "descriptionJa": "ジョヴァンニ・バッティスタ・ガウッリ（イル・バチッチョ）による「ある女性の肖像」は、1670年代に制作されたキャンバスに油彩の作品です。柔らかな光と繊細な筆致で描かれた女性の表情が印象的で、バロック期イタリア絵画の特徴をよく表しています。この作品は2014年にアルバロ・サイエ・ベンデックらの寄贈によりメトロポリタン美術館に収蔵されました。"
+    },
+    "647338": {
+      "titleEn": "Saint Francis in Ecstasy",
+      "titleJa": "恍惚の聖フランシスコ",
+      "artist": "Giovanni Benedetto Castiglione (Il Grechetto)",
+      "artistJa": "ジョヴァンニ・ベネデット・カスティリオーネ（イル・グレケット）",
+      "date": "ca. 1650",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP328663.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP328663.jpg",
+      "descriptionJa": "この作品はジョヴァンニ・ベネデット・カスティリオーネ（イル・グレケット）によるキャンバスに油彩で描かれた「恍惚の聖フランシスコ」です。聖フランシスコが恍惚状態で十字架を見つめる姿が力強く表現されており、骸骨やクロスが象徴的に配されています。17世紀イタリアのバロック期を代表する画家によるもので、精神的な高揚と宗教的な献身を描いた重要な作品です。"
+    },
+    "712539": {
+      "titleEn": "Saint Philip Neri (1515–1595)",
+      "titleJa": "聖フィリポ・ネリ（1515-1595年）",
+      "artist": "Carlo Dolci",
+      "artistJa": "カルロ・ドルチ",
+      "date": "1645 or 1646",
+      "medium": "Oil on canvas",
+      "mediumJa": "キャンバスに油彩",
+      "department": "European Paintings",
+      "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-944-001.jpg",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-944-001.jpg",
+      "descriptionJa": "この作品はカルロ・ドルチによるキャンバスに油彩で描かれた聖フィリポ・ネリの肖像画です。柔らかな光と繊細な筆致で、聖人の穏やかで慈愛に満ちた表情が印象的に表現されています。17世紀のイタリア・フィレンツェで活躍した画家による作品で、ニューヨークのメトロポリタン美術館に所蔵されています。"
     },
     "747559": {
       "titleEn": "Male Academy Figure: Half-Length, Side View",
