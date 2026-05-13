@@ -72,6 +72,8 @@ function parseArgs(argv) {
     limit: TARGET_COUNT,
     output: path.join(__dirname, 'translations.json'),
     useAi: true,
+    mode: 'rebuild',
+    batchSize: null,
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -83,6 +85,27 @@ function parseArgs(argv) {
         throw new Error('Invalid value for --limit.');
       }
       options.limit = value;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--target-count') {
+      const value = Number.parseInt(argv[index + 1], 10);
+      if (!Number.isFinite(value) || value <= 0) {
+        throw new Error('Invalid value for --target-count.');
+      }
+      options.limit = value;
+      options.mode = 'append';
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--batch-size') {
+      const value = Number.parseInt(argv[index + 1], 10);
+      if (!Number.isFinite(value) || value <= 0) {
+        throw new Error('Invalid value for --batch-size.');
+      }
+      options.batchSize = value;
       index += 1;
       continue;
     }
@@ -106,6 +129,27 @@ function parseArgs(argv) {
   }
 
   return options;
+}
+
+async function loadExistingPayload(filePath) {
+  try {
+    const raw = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(raw);
+    const objectIds = Array.isArray(data.objectIds) ? data.objectIds : [];
+    const artworks = data && typeof data.artworks === 'object' && data.artworks ? data.artworks : {};
+
+    return {
+      generated: cleanText(data.generated),
+      objectIds,
+      artworks,
+    };
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return null;
+    }
+
+    throw new Error(`Failed to read existing payload: ${error.message}`);
+  }
 }
 
 async function fetchJson(url) {
@@ -325,6 +369,22 @@ async function main() {
     options.useAi = false;
   }
 
+  const existingPayload = options.mode === 'append'
+    ? await loadExistingPayload(options.output)
+    : null;
+  const existingObjectIds = existingPayload?.objectIds ?? [];
+  const existingArtworks = existingPayload?.artworks ?? {};
+  const existingIdSet = new Set(existingObjectIds.map((id) => Number(id)));
+
+  if (options.mode === 'append') {
+    console.log(`Loaded existing artworks: ${existingObjectIds.length}`);
+
+    if (existingObjectIds.length >= options.limit) {
+      console.log(`No generation needed. Existing file already has ${existingObjectIds.length} artworks.`);
+      return;
+    }
+  }
+
   console.log('Fetching highlight object list from the Met...');
   const list = await fetchJson(
     `${MET_BASE}/objects?isHighlight=true&hasImages=true&isPublicDomain=true&departmentIds=11`
@@ -335,18 +395,32 @@ async function main() {
   }
 
   const shuffledIds = shuffle(list.objectIDs);
-  const objectIds = [];
-  const artworks = {};
+  const objectIds = [...existingObjectIds];
+  const artworks = { ...existingArtworks };
+  const remainingNeeded = Math.max(0, options.limit - existingObjectIds.length);
+  const generateCount = options.mode === 'append' && options.batchSize
+    ? Math.min(remainingNeeded, options.batchSize)
+    : remainingNeeded;
+  const finalTarget = existingObjectIds.length + generateCount;
+
+  if (generateCount === 0) {
+    console.log('No generation needed for this run.');
+    return;
+  }
 
   for (const objectId of shuffledIds) {
-    if (objectIds.length >= options.limit) {
+    if (objectIds.length >= finalTarget) {
       break;
     }
 
     const progress = objectIds.length + 1;
 
     try {
-      console.log(`[${progress}/${options.limit}] Fetching objectId ${objectId}...`);
+      if (existingIdSet.has(Number(objectId))) {
+        continue;
+      }
+
+      console.log(`[${progress}/${finalTarget}] Fetching objectId ${objectId}...`);
       const detail = await fetchJson(`${MET_BASE}/objects/${objectId}`);
       const hasImage = Boolean(detail.primaryImageSmall || detail.primaryImage);
 
@@ -354,8 +428,13 @@ async function main() {
         continue;
       }
 
+      if (existingIdSet.has(Number(detail.objectID))) {
+        continue;
+      }
+
       artworks[String(detail.objectID)] = await buildArtwork(detail, options);
       objectIds.push(detail.objectID);
+      existingIdSet.add(Number(detail.objectID));
     } catch (error) {
       console.warn(`Skipping objectId ${objectId}: ${error.message}`);
     }
@@ -367,8 +446,8 @@ async function main() {
     throw new Error('No artworks were collected. Check the tokens and network access, then try again.');
   }
 
-  if (objectIds.length < options.limit) {
-    console.warn(`Collected ${objectIds.length} artworks, fewer than the target ${options.limit}.`);
+  if (objectIds.length < finalTarget) {
+    console.warn(`Collected ${objectIds.length} artworks, fewer than the target ${finalTarget}.`);
   }
 
   const payload = {

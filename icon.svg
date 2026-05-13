@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Art of the Day Icon</title>
+  <desc id="desc">A framed golden painting with a sun accent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2d194"/>
+      <stop offset="45%" stop-color="#c38a38"/>
+      <stop offset="100%" stop-color="#7b4a18"/>
+    </linearGradient>
+    <linearGradient id="canvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#243548"/>
+      <stop offset="100%" stop-color="#111821"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff5d7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffd979" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="#151515"/>
+  <rect x="66" y="66" width="380" height="380" rx="88" fill="url(#bg)"/>
+  <rect x="114" y="114" width="284" height="284" rx="34" fill="#f5deb1" opacity="0.95"/>
+  <rect x="138" y="138" width="236" height="236" rx="20" fill="url(#canvas)"/>
+  <circle cx="304" cy="206" r="34" fill="#f4cb67"/>
+  <path d="M160 330c24-20 46-36 66-36 24 0 40 14 54 28 10 10 15 14 22 14 11 0 21-12 36-32l36-48v98H160Z" fill="#8ea06a"/>
+  <path d="M160 346c30-34 56-60 90-60 22 0 40 12 57 28 17 16 24 23 34 23 13 0 25-11 40-29l27-32v100H160Z" fill="#5a7051"/>
+  <path d="M154 154h204v50c-38 8-74 4-112-12-32-13-60-18-92-14Z" fill="url(#light)" opacity="0.42"/>
+  <circle cx="392" cy="126" r="34" fill="#151515" opacity="0.18"/>
+  <path d="M392 102l8 16 18 2-13 12 3 18-16-8-16 8 3-18-13-12 18-2Z" fill="#fff1be"/>
+</svg>
