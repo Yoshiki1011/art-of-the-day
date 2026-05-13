@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art of the Day</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #1a1a1a;
+      --bg-layer:
+        radial-gradient(circle at top left, rgba(221, 169, 83, 0.16), transparent 34%),
+        radial-gradient(circle at top right, rgba(94, 115, 160, 0.18), transparent 36%),
+        linear-gradient(180deg, #232323 0%, #151515 100%);
+      --panel: rgba(34, 34, 34, 0.86);
+      --panel-strong: rgba(28, 28, 28, 0.96);
+      --panel-soft: rgba(58, 58, 58, 0.36);
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f0f0f0;
+      --muted: #bcb7ae;
+      --accent: #e1b56e;
+      --accent-soft: rgba(225, 181, 110, 0.18);
+      --shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
+      --placeholder-a: #525252;
+      --placeholder-b: #737373;
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    body {
+      padding: 24px 14px 48px;
+      background-image: var(--bg-layer);
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .shell {
+      width: min(100%, 800px);
+      margin: 0 auto;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent 30%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 22%);
+      pointer-events: none;
+    }
+
+    .header,
+    .content,
+    .nav {
+      position: relative;
+      z-index: 1;
+    }
+
+    .header {
+      padding: 26px 24px 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      border: 1px solid rgba(225, 181, 110, 0.24);
+      color: #f7dfb8;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    h1 {
+      margin: 16px 0 8px;
+      font-size: clamp(2rem, 6vw, 3.3rem);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    .date-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .content {
+      padding: 22px;
+    }
+
+    .status {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      min-height: 220px;
+      padding: 28px 18px;
+      text-align: center;
+      color: var(--muted);
+      line-height: 1.8;
+      border-radius: var(--radius-lg);
+      border: 1px dashed var(--border);
+      background: var(--panel-soft);
+    }
+
+    .status.visible {
+      display: flex;
+    }
+
+    .status.error {
+      color: #ffd2d2;
+      border-color: rgba(255, 160, 160, 0.25);
+      background: rgba(112, 36, 36, 0.2);
+    }
+
+    .spinner-shell {
+      display: grid;
+      gap: 16px;
+      justify-items: center;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 3px solid rgba(255, 255, 255, 0.14);
+      border-top-color: var(--accent);
+      animation: spin 0.9s linear infinite;
+    }
+
+    .artwork {
+      display: none;
+      gap: 22px;
+    }
+
+    .artwork.visible {
+      display: grid;
+    }
+
+    .image-frame {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.04), transparent 34%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+      min-height: 320px;
+    }
+
+    .image-frame img {
+      width: 100%;
+      max-height: 60vh;
+      object-fit: contain;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.18);
+    }
+
+    .placeholder {
+      display: grid;
+      place-items: center;
+      min-height: 320px;
+      padding: 24px;
+      text-align: center;
+      color: #dfdfdf;
+      background:
+        linear-gradient(135deg, var(--placeholder-a), var(--placeholder-b)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent);
+    }
+
+    .placeholder span {
+      display: grid;
+      gap: 8px;
+      font-size: 0.94rem;
+      line-height: 1.7;
+      max-width: 26ch;
+    }
+
+    .meta {
+      display: grid;
+      gap: 12px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: clamp(1.7rem, 4vw, 2.3rem);
+      line-height: 1.14;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .museum {
+      margin: 0;
+      color: #eee1c2;
+      font-size: 0.95rem;
+    }
+
+    .section {
+      display: none;
+      padding: 18px 18px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015)),
+        rgba(12, 12, 12, 0.18);
+    }
+
+    .section.visible {
+      display: block;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 0.92rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f1d4a0;
+    }
+
+    .description {
+      margin: 0;
+      line-height: 1.9;
+      color: #ece7de;
+      white-space: pre-wrap;
+    }
+
+    .nav {
+      display: flex;
+      gap: 14px;
+      justify-content: space-between;
+      padding: 0 22px 22px;
+    }
+
+    .nav button {
+      flex: 1;
+      min-height: 52px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--panel-strong);
+      color: var(--text);
+      cursor: pointer;
+      transition: transform 150ms ease, opacity 150ms ease, border-color 150ms ease, background 150ms ease;
+    }
+
+    .nav button:hover:not(:disabled) {
+      transform: translateY(-1px);
+      border-color: rgba(225, 181, 110, 0.3);
+      background: rgba(42, 42, 42, 0.98);
+    }
+
+    .nav button:disabled {
+      opacity: 0.42;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .footer-note {
+      margin: 14px 2px 0;
+      color: rgba(240, 240, 240, 0.55);
+      text-align: center;
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 14px 10px 32px;
+      }
+
+      .header {
+        padding: 22px 18px 16px;
+      }
+
+      .content {
+        padding: 16px;
+      }
+
+      .image-frame,
+      .placeholder {
+        min-height: 240px;
+      }
+
+      .nav {
+        padding: 0 16px 16px;
+      }
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="card">
+      <header class="header">
+        <div class="eyebrow">🎨 Art of the Day</div>
+        <h1>今日のアート</h1>
+        <p class="date-label" id="dateLabel">読み込み中...</p>
+      </header>
+
+      <div class="content">
+        <div class="status visible" id="loadingState" aria-live="polite">
+          <div class="spinner-shell">
+            <div class="spinner" aria-hidden="true"></div>
+            <div>作品データを読み込んでいます...</div>
+          </div>
+        </div>
+
+        <div class="status" id="errorState" role="alert"></div>
+
+        <article class="artwork" id="artworkCard" aria-live="polite">
+          <div class="image-frame">
+            <img id="artImage" alt="" hidden />
+            <div class="placeholder" id="imagePlaceholder">
+              <span>画像を表示できませんでした。<br />グレーのプレースホルダーを表示しています。</span>
+            </div>
+          </div>
+
+          <div class="meta">
+            <div>
+              <h2 class="title" id="titleJa">-</h2>
+              <p class="subtitle" id="metaLine"></p>
+              <p class="museum" id="museumLine">所蔵: メトロポリタン美術館</p>
+            </div>
+
+            <section class="section" id="descriptionSection">
+              <h2>解説</h2>
+              <p class="description" id="descriptionJa"></p>
+            </section>
+          </div>
+        </article>
+      </div>
+
+      <nav class="nav">
+        <button type="button" id="prevButton">← 前日</button>
+        <button type="button" id="nextButton">翌日 →</button>
+      </nav>
+    </section>
+
+    <p class="footer-note">`translations.json` を差し替えると、そのまま GitHub Pages 用の公開データとして使えます。</p>
+  </main>
+
+  <script>
+    const MS_PER_DAY = 86400000;
+
+    const state = {
+      data: null,
+      offset: 0,
+      imageBroken: false,
+    };
+
+    const dateLabel = document.getElementById('dateLabel');
+    const loadingState = document.getElementById('loadingState');
+    const errorState = document.getElementById('errorState');
+    const artworkCard = document.getElementById('artworkCard');
+    const artImage = document.getElementById('artImage');
+    const imagePlaceholder = document.getElementById('imagePlaceholder');
+    const titleJa = document.getElementById('titleJa');
+    const metaLine = document.getElementById('metaLine');
+    const museumLine = document.getElementById('museumLine');
+    const descriptionSection = document.getElementById('descriptionSection');
+    const descriptionJa = document.getElementById('descriptionJa');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+
+    function getDayIndex(offset) {
+      return Math.floor(Date.now() / MS_PER_DAY) + offset;
+    }
+
+    function formatDate(dayIndex) {
+      return new Date(dayIndex * MS_PER_DAY).toLocaleDateString('ja-JP', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'short',
+      });
+    }
+
+    function showOnly(target) {
+      const sections = [loadingState, errorState, artworkCard];
+
+      sections.forEach((section) => {
+        section.classList.toggle('visible', section === target);
+      });
+    }
+
+    function showError(message) {
+      errorState.textContent = message;
+      errorState.classList.add('error');
+      showOnly(errorState);
+    }
+
+    function wrapIndex(index, total) {
+      return ((index % total) + total) % total;
+    }
+
+    function buildMetaLine(artwork) {
+      const values = [artwork.artistJa || artwork.artist, artwork.date, artwork.mediumJa || artwork.medium]
+        .map((value) => (value || '').trim())
+        .filter(Boolean);
+
+      return values.join(' / ');
+    }
+
+    function buildFallbackDescription(artwork) {
+      const title = (artwork.titleJa || artwork.titleEn || 'この作品').trim();
+      const artist = (artwork.artistJa || artwork.artist || '作者不詳').trim();
+      const date = (artwork.date || '制作年不詳').trim();
+      const medium = (artwork.mediumJa || artwork.medium || '素材不詳').trim();
+      const department = (artwork.department || '所蔵部門未設定').trim();
+      const titleSuffix = title === 'この作品' ? '' : `《${title}》は、`;
+
+      return `${titleSuffix}${artist}による${date}頃の作品です。${medium}で制作され、メトロポリタン美術館の${department}部門で公開されています。`;
+    }
+
+    function buildDescriptionText(artwork) {
+      const raw = (artwork.descriptionJa || '').trim();
+
+      if (!raw) {
+        return buildFallbackDescription(artwork);
+      }
+
+      if (raw.length < 24) {
+        return `${buildFallbackDescription(artwork)} ${raw}`;
+      }
+
+      return raw;
+    }
+
+    function updateImage(artwork) {
+      const imageCandidates = [artwork.imageSmall, artwork.image]
+        .map((value) => (value || '').trim())
+        .filter(Boolean);
+
+      function showPlaceholder() {
+        artImage.hidden = true;
+        artImage.style.display = 'none';
+        imagePlaceholder.hidden = false;
+        imagePlaceholder.style.display = 'grid';
+      }
+
+      function showImage() {
+        artImage.hidden = false;
+        artImage.style.display = 'block';
+        imagePlaceholder.hidden = true;
+        imagePlaceholder.style.display = 'none';
+      }
+
+      state.imageBroken = false;
+      artImage.removeAttribute('src');
+      artImage.alt = `${artwork.titleJa || artwork.titleEn || 'Artwork image'} / ${artwork.artistJa || artwork.artist || ''}`;
+      showPlaceholder();
+
+      if (imageCandidates.length === 0) {
+        return;
+      }
+
+      let currentIndex = 0;
+
+      artImage.onload = () => {
+        if (state.imageBroken) {
+          return;
+        }
+
+        showImage();
+      };
+
+      artImage.onerror = () => {
+        currentIndex += 1;
+
+        if (currentIndex < imageCandidates.length) {
+          artImage.src = imageCandidates[currentIndex];
+          return;
+        }
+
+        state.imageBroken = true;
+        showPlaceholder();
+      };
+
+      artImage.src = imageCandidates[currentIndex];
+    }
+
+    function renderArtwork() {
+      const { data, offset } = state;
+
+      if (!data || !Array.isArray(data.objectIds) || data.objectIds.length === 0) {
+        dateLabel.textContent = '作品データはまだありません';
+        showError('作品データがまだ生成されていません。`node generate.js` 実行後の `translations.json` を配置してください。');
+        prevButton.disabled = true;
+        nextButton.disabled = true;
+        return;
+      }
+
+      const dayIndex = getDayIndex(offset);
+      const objectId = data.objectIds[wrapIndex(dayIndex, data.objectIds.length)];
+      const artwork = data.artworks[String(objectId)];
+
+      if (!artwork) {
+        dateLabel.textContent = formatDate(dayIndex);
+        showError('作品データの形式が正しくありません。`translations.json` を確認してください。');
+        prevButton.disabled = true;
+        nextButton.disabled = true;
+        return;
+      }
+
+      dateLabel.textContent = formatDate(dayIndex);
+      titleJa.textContent = artwork.titleJa || artwork.titleEn || 'タイトル不明';
+      metaLine.textContent = buildMetaLine(artwork) || '作者・制作情報がありません';
+      museumLine.textContent = artwork.department
+        ? `所蔵: メトロポリタン美術館 / ${artwork.department}`
+        : '所蔵: メトロポリタン美術館';
+
+      const description = buildDescriptionText(artwork);
+      descriptionJa.textContent = description;
+      descriptionSection.classList.toggle('visible', Boolean(description));
+
+      updateImage(artwork);
+
+      prevButton.disabled = false;
+      nextButton.disabled = offset >= 0;
+      errorState.classList.remove('error');
+      showOnly(artworkCard);
+    }
+
+    async function loadTranslations() {
+      showOnly(loadingState);
+      errorState.classList.remove('error');
+
+      try {
+        const response = await fetch('./translations.json', { cache: 'no-store' });
+
+        if (!response.ok) {
+          throw new Error('translations.json の取得に失敗しました。');
+        }
+
+        state.data = await response.json();
+        renderArtwork();
+      } catch (error) {
+        dateLabel.textContent = 'データ読み込みエラー';
+        showError('データを読み込めませんでした。`translations.json` の配置と公開方法を確認してください。');
+      }
+    }
+
+    prevButton.addEventListener('click', () => {
+      state.offset -= 1;
+      renderArtwork();
+    });
+
+    nextButton.addEventListener('click', () => {
+      if (state.offset >= 0) {
+        return;
+      }
+
+      state.offset += 1;
+      renderArtwork();
+    });
+
+    loadTranslations();
+  </script>
+</body>
+</html>

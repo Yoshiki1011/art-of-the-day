@@ -1,0 +1,21 @@
+{
+  "name": "art-of-the-day",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Art of the Day app with yearly translation data generation.",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "generate:180": "node generate.js --limit 180",
+    "generate:365": "node generate.js --limit 365",
+    "build:pages": "npm run generate:180 && npm run check",
+    "check": "node --check generate.js",
+    "prepare:pages": "node scripts/prepare-pages.js",
+    "preview": "python3 -m http.server 3012"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
