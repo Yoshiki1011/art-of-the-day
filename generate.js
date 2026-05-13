@@ -5,12 +5,13 @@ const dotenv = require('dotenv');
 dotenv.config({ path: path.join(__dirname, '.env') });
 
 const MET_BASE = 'https://collectionapi.metmuseum.org/public/collection/v1';
-const MANYAIPROXY_BASE_URL = process.env.MANYAIPROXY_BASE_URL || 'https://manyaiproxy.kazuhiro-ogura-dev.prototypers.net';
-const DEEPL_ENDPOINT = 'https://manyaiproxy.kazuhiro-ogura-dev.prototypers.net/proxy/deepl/v2/translate';
-const OPENAI_ENDPOINT = `${MANYAIPROXY_BASE_URL}/proxy/openai/v1/chat/completions`;
-const DEEPL_TOKEN = process.env.MANYAIPROXY_DEEPL_TOKEN;
-const OPENAI_TOKEN = process.env.MANYAIPROXY_OPENAI_TOKEN;
-const SUMMARY_MODEL = process.env.ART_OF_THE_DAY_SUMMARY_MODEL || 'gpt-4.1-mini';
+const TRANSLATION_API_URL = process.env.TRANSLATION_API_URL;
+const TRANSLATION_API_KEY = process.env.TRANSLATION_API_KEY;
+const TRANSLATION_API_AUTH_SCHEME = process.env.TRANSLATION_API_AUTH_SCHEME || 'DeepL-Auth-Key';
+const LLM_API_URL = process.env.LLM_API_URL;
+const LLM_API_KEY = process.env.LLM_API_KEY;
+const LLM_API_AUTH_SCHEME = process.env.LLM_API_AUTH_SCHEME || 'Bearer';
+const SUMMARY_MODEL = process.env.ART_OF_THE_DAY_SUMMARY_MODEL || process.env.LLM_MODEL || 'gpt-4.1-mini';
 const TARGET_COUNT = 365;
 const DELAY_MS = 300;
 
@@ -118,15 +119,15 @@ async function fetchJson(url) {
 }
 
 async function translateTexts(texts) {
-  if (!DEEPL_TOKEN) {
-    throw new Error('MANYAIPROXY_DEEPL_TOKEN is not set.');
+  if (!TRANSLATION_API_URL || !TRANSLATION_API_KEY) {
+    throw new Error('TRANSLATION_API_URL or TRANSLATION_API_KEY is not set.');
   }
 
   const validTexts = texts.map((text) => text || '');
-  const response = await fetch(DEEPL_ENDPOINT, {
+  const response = await fetch(TRANSLATION_API_URL, {
     method: 'POST',
     headers: {
-      Authorization: `DeepL-Auth-Key ${DEEPL_TOKEN}`,
+      Authorization: `${TRANSLATION_API_AUTH_SCHEME} ${TRANSLATION_API_KEY}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
@@ -138,13 +139,13 @@ async function translateTexts(texts) {
 
   if (!response.ok) {
     const body = await response.text();
-    throw new Error(`DeepL translation failed: ${response.status} ${body}`);
+    throw new Error(`Translation API failed: ${response.status} ${body}`);
   }
 
   const data = await response.json();
 
   if (!Array.isArray(data.translations)) {
-    throw new Error('DeepL translation response was missing translations.');
+    throw new Error('Translation response was missing translations.');
   }
 
   return data.translations.map((item) => item.text || '');
@@ -184,15 +185,15 @@ function isRichEnough(text) {
 }
 
 async function generateDescriptionJa(detail, translated, options) {
-  if (!options.useAi || !OPENAI_TOKEN) {
+  if (!options.useAi || !LLM_API_URL || !LLM_API_KEY) {
     return buildFallbackDescription(detail, translated);
   }
 
   const metadata = buildEnglishMetadata(detail);
-  const response = await fetch(OPENAI_ENDPOINT, {
+  const response = await fetch(LLM_API_URL, {
     method: 'POST',
     headers: {
-      Authorization: `Bearer ${OPENAI_TOKEN}`,
+      Authorization: `${LLM_API_AUTH_SCHEME} ${LLM_API_KEY}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
@@ -243,7 +244,7 @@ async function generateDescriptionJa(detail, translated, options) {
 
   if (!response.ok) {
     const body = await response.text();
-    throw new Error(`OpenAI description generation failed: ${response.status} ${body}`);
+    throw new Error(`LLM description generation failed: ${response.status} ${body}`);
   }
 
   const data = await response.json();
@@ -315,12 +316,12 @@ async function buildArtwork(detail, options) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
 
-  if (!DEEPL_TOKEN) {
-    throw new Error('MANYAIPROXY_DEEPL_TOKEN is not configured. Add it to the root or local .env file.');
+  if (!TRANSLATION_API_URL || !TRANSLATION_API_KEY) {
+    throw new Error('TRANSLATION_API_URL and TRANSLATION_API_KEY must be configured in .env.');
   }
 
-  if (!OPENAI_TOKEN && options.useAi) {
-    console.warn('MANYAIPROXY_OPENAI_TOKEN is not configured. Falling back to template-based descriptions.');
+  if ((!LLM_API_URL || !LLM_API_KEY) && options.useAi) {
+    console.warn('LLM_API_URL or LLM_API_KEY is not configured. Falling back to template-based descriptions.');
     options.useAi = false;
   }
 
